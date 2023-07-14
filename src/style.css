@@ -1,0 +1,36 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+#map {
+  flex-grow: 6;
+}
+
+.featureDiv {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.featureDiv > h4 {
+  padding: 0;
+  margin: 0;
+}

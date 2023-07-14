@@ -1,0 +1,20 @@
+{
+  "name": "pointscomparetool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "@turf/bbox": "^6.5.0",
+    "@turf/center": "^6.5.0",
+    "maplibre-gl": "^3.2.0"
+  }
+}
