@@ -13,8 +13,7 @@
     "vite": "^4.4.0"
   },
   "dependencies": {
-    "@turf/bbox": "^6.5.0",
-    "@turf/center": "^6.5.0",
+    "@turf/turf": "^6.5.0",
     "maplibre-gl": "^3.2.0"
   }
 }

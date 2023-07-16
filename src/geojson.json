@@ -5,7 +5,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.834345, 50.822615], "type": "Point" },
       "properties": {
-        "id": "1e93fd7e-d7fa-4d13-8440-bbe98503da31",
+        "id": "6201f690-6921-4352-89b2-78ced160f0e4",
         "community": "Ieper",
         "street": "Hazenbilk",
         "postalCode": "8900",
@@ -22,7 +22,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.834417, 50.822786], "type": "Point" },
       "properties": {
-        "id": "1e93fd7e-d7fa-4d13-8440-bbe98503da31",
+        "id": "6201f690-6921-4352-89b2-78ced160f0e4",
         "community": "Ieper",
         "street": "Hazenbilk",
         "postalCode": "8900",
@@ -39,7 +39,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.920576, 50.836134], "type": "Point" },
       "properties": {
-        "id": "a7f4b65d-fe9f-448c-8798-8b88e9da7d2e",
+        "id": "2fa04dab-732d-4e3b-8b92-f0149b1daf77",
         "community": "Ieper",
         "street": "Seelbachdreef",
         "postalCode": "8902",
@@ -57,7 +57,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.920577, 50.836126], "type": "Point" },
       "properties": {
-        "id": "a7f4b65d-fe9f-448c-8798-8b88e9da7d2e",
+        "id": "2fa04dab-732d-4e3b-8b92-f0149b1daf77",
         "community": "Ieper",
         "street": "Seelbachdreef",
         "postalCode": "8902",
@@ -75,7 +75,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.882339, 50.854098], "type": "Point" },
       "properties": {
-        "id": "1c2a5555-fdd3-4733-8f75-4d19705f5366",
+        "id": "097cc710-90ae-4c5c-b3d6-2d5748a34dcd",
         "community": "Ieper",
         "street": "Minneplein",
         "postalCode": "8900",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.882338, 50.854081], "type": "Point" },
       "properties": {
-        "id": "1c2a5555-fdd3-4733-8f75-4d19705f5366",
+        "id": "097cc710-90ae-4c5c-b3d6-2d5748a34dcd",
         "community": "Ieper",
         "street": "Minneplein",
         "postalCode": "8900",
@@ -111,7 +111,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.733844, 50.825864], "type": "Point" },
       "properties": {
-        "id": "d3373398-9ca6-4b69-8f2c-a34706503f81",
+        "id": "1eb50c88-41d7-4057-814a-df57eaa84b69",
         "community": "Heuvelland",
         "street": "Hogegraafstraat",
         "postalCode": "8954",
@@ -128,7 +128,7 @@
       "type": "Feature",
       "geometry": { "coordinates": [2.733837, 50.825859], "type": "Point" },
       "properties": {
-        "id": "d3373398-9ca6-4b69-8f2c-a34706503f81",
+        "id": "1eb50c88-41d7-4057-814a-df57eaa84b69",
         "community": "Heuvelland",
         "street": "Hogegraafstraat",
         "postalCode": "8954",
@@ -148,7 +148,7 @@
         "type": "Point"
       },
       "properties": {
-        "id": "6c408fda-c6cb-4cb9-bd10-9aee21220434",
+        "id": "28d003a6-89b9-492c-b08d-172e2ecdd1cf",
         "community": "Brugge",
         "street": "Koningin Astridpark",
         "result": {
@@ -170,7 +170,7 @@
         "type": "Point"
       },
       "properties": {
-        "id": "6c408fda-c6cb-4cb9-bd10-9aee21220434",
+        "id": "28d003a6-89b9-492c-b08d-172e2ecdd1cf",
         "community": "Brugge",
         "street": "Koningin Astridpark",
         "result": {
@@ -181,6 +181,40 @@
           },
           "type": "addressmatching",
           "metaData": { "searchType": "osm" }
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.133303, 50.921059], "type": "Point" },
+      "properties": {
+        "id": "a5fa04f8-b1c6-4f94-80a5-4991e0b47e10",
+        "community": "Aalst",
+        "street": "Abdijstraat",
+        "houseNumber": "116",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.919028, "lng": 4.138429 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.138429, 50.919028], "type": "Point" },
+      "properties": {
+        "id": "a5fa04f8-b1c6-4f94-80a5-4991e0b47e10",
+        "community": "Aalst",
+        "street": "Abdijstraat",
+        "houseNumber": "116",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.919028, "lng": 4.138429 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
         },
         "marker-color": "green"
       }

@@ -1,10 +1,26 @@
-import "./style.css";
+
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import geoJson from "./geojson.json";
-import bbox from "@turf/bbox";
-import center from "@turf/center";
+import "./style.css";
+import * as turf from '@turf/turf';
 
+// HELPER FUNCTIONS
+const makeActive = (button: Element) => {
+  button.classList.remove("buttonInactive");
+  button.classList.add("buttonActive");
+};
+const makeInactive = (button: Element) => {
+  button.classList.remove("buttonActive");
+  button.classList.add("buttonInactive");
+};
+const writeToLocalStorage = (id: string, value: string) => {
+  const geojsonObject = JSON.parse(localStorage.getItem("geojsonObject") || "{}");
+  geojsonObject[id] = value;
+  localStorage.setItem("geojsonObject", JSON.stringify(geojsonObject));
+};
+
+// MAP code
 const map = new maplibregl.Map({
   container: "map",
   style:
@@ -57,27 +73,90 @@ map.on("load", () => {
   });
 });
 
+
+//SIDEBAR code
 const sidebar = document.getElementById("sidebar");
+
+const featuresDiv = document.createElement("div");
+featuresDiv.className = "featuresDiv";
+featuresDiv.innerHTML = `
+<fieldset>
+  <legend>Selecteer op map</legend>
+  <div class="filter-options">
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey" />
+      <label for="huey">Allemaal</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey" />
+      <label for="dewey">Correct</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie" />
+      <label for="louie">Fout</label>
+    </div>
+  </div>
+</fieldset>
+`;
+
+sidebar?.appendChild(featuresDiv);
 
 for (let i = 0; i < geoJson.features.length; i += 2) {
   const feature = geoJson.features[i];
 
   const featureDiv = document.createElement("div");
+  featureDiv.dataset.id = feature.properties.id;
   featureDiv.innerHTML = `
-    <h4>${feature.properties.street} ${feature.properties.houseNumber ? feature.properties.houseNumber : ""}</></h4>
-    <h4>${feature.properties.postalCode ? feature.properties.postalCode : ""} ${feature.properties.community ? feature.properties.community : ""}</></h4>
+    <div>
+      <h4>${feature.properties.street} ${feature.properties.houseNumber ? feature.properties.houseNumber : ""}</h4>
+      <h4>${feature.properties.postalCode ? feature.properties.postalCode : ""} ${feature.properties.community ? feature.properties.community : ""}</h4>
+    </div>
+    <div id="goodOrFault">
+      <button id="good">✅</button>
+      <button id="fault">❌</button>
+    </div>
     `;
   featureDiv.className = "featureDiv";
 
   featureDiv.addEventListener("click", () => {
     map.setFilter("markers", ["==", "id", feature.properties.id]);
     const filtered = geoJson.features.filter(f => f.properties.id === feature.properties.id);
-    const bboxCoords = bbox({
+    const bboxCoords = turf.bbox({
       type: "FeatureCollection",
       features: filtered
     });
 
-    map.fitBounds(bboxCoords, { maxZoom: 18, maxDuration: 4000 });
+    map.fitBounds(bboxCoords, { linear: true, maxZoom: 17, maxDuration: 4000 });
   });
+
+  const goodButton = featureDiv.querySelector("#good");
+  const faultButton = featureDiv.querySelector("#fault");
+
+  const geojsonObject = JSON.parse(localStorage.getItem("geojsonObject") || "{}");
+  console.log('\x1b[31m%s\x1b[0m', 'geojsonObject', geojsonObject);
+
+
+  if (geojsonObject[feature.properties.id] === "good") {
+    goodButton && makeActive(goodButton);
+  } else if (geojsonObject[feature.properties.id] === "fault") {
+    faultButton && makeActive(faultButton);
+  }
+
+  goodButton?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    makeActive(goodButton);
+    faultButton && makeInactive(faultButton);
+    writeToLocalStorage(feature.properties.id, "good")
+  });
+
+  faultButton?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    makeActive(faultButton);
+    goodButton && makeInactive(goodButton);
+    writeToLocalStorage(feature.properties.id, "fault")
+  });
+
   sidebar?.appendChild(featureDiv);
 };
