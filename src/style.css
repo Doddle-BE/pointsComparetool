@@ -18,6 +18,10 @@ body {
   overflow: auto;
 }
 
+#btnSaveFile {
+  margin: 10px;
+}
+
 #map {
   flex-grow: 6;
 }
@@ -31,6 +35,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.featureDiv-active {
+  background-color: #ccc;
 }
 
 .featuresDiv {

@@ -3,15 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "coordinates": [2.834345, 50.822615], "type": "Point" },
+      "geometry": { "coordinates": [4.133303, 50.921059], "type": "Point" },
       "properties": {
-        "id": "6201f690-6921-4352-89b2-78ced160f0e4",
-        "community": "Ieper",
-        "street": "Hazenbilk",
-        "postalCode": "8900",
+        "id": "6f87a85e-13f9-4067-910e-a185500a81d1",
+        "community": "Aalst",
+        "street": "Abdijstraat",
+        "houseNumber": "116",
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.822786, "lng": 2.834417 },
+          "position_wgs": { "lat": 50.919028, "lng": 4.138429 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
@@ -20,33 +20,15 @@
     },
     {
       "type": "Feature",
-      "geometry": { "coordinates": [2.834417, 50.822786], "type": "Point" },
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
       "properties": {
-        "id": "6201f690-6921-4352-89b2-78ced160f0e4",
-        "community": "Ieper",
-        "street": "Hazenbilk",
-        "postalCode": "8900",
+        "id": "6c75b4a9-6a6f-4d2c-8814-3982397baad9",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.822786, "lng": 2.834417 },
-          "type": "addressmatching",
-          "metaData": { "searchType": "pelias" }
-        },
-        "marker-color": "green"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "coordinates": [2.920576, 50.836134], "type": "Point" },
-      "properties": {
-        "id": "2fa04dab-732d-4e3b-8b92-f0149b1daf77",
-        "community": "Ieper",
-        "street": "Seelbachdreef",
-        "postalCode": "8902",
-        "houseNumber": "4",
-        "result": {
-          "succes": true,
-          "position_wgs": { "lat": 50.836126, "lng": 2.920577 },
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
@@ -55,34 +37,745 @@
     },
     {
       "type": "Feature",
-      "geometry": { "coordinates": [2.920577, 50.836126], "type": "Point" },
+      "geometry": { "coordinates": [2.883847, 50.851915], "type": "Point" },
       "properties": {
-        "id": "2fa04dab-732d-4e3b-8b92-f0149b1daf77",
-        "community": "Ieper",
-        "street": "Seelbachdreef",
-        "postalCode": "8902",
-        "houseNumber": "4",
+        "id": "dd5a16a7-a506-420f-ba1e-5636c20a0157",
+        "community": "IEPER",
+        "street": "Vandenpeereboomplein",
+        "postalCode": 8900,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.836126, "lng": 2.920577 },
+          "position_wgs": { "lat": 50.852319, "lng": 2.883247 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
-        "marker-color": "green"
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.900837, 50.852716], "type": "Point" },
+      "properties": {
+        "id": "b6fabe0b-9603-41b0-8142-b451ebd08574",
+        "community": "IEPER",
+        "street": "Robrecht van Bethunelaan",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.852604, "lng": 2.901666 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "7c7200b3-5d83-4165-856a-9fb39078ef18",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.809252, 50.961156], "type": "Point" },
+      "properties": {
+        "id": "27b899d3-ce75-4b58-b6a1-266786089eb9",
+        "community": "LO-RENINGE",
+        "street": "Noordschoteplein",
+        "postalCode": 8647,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.953206, "lng": 2.804866 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.976364, 50.889561], "type": "Point" },
+      "properties": {
+        "id": "a784c571-b33a-4e02-a0af-ffe26b1791de",
+        "community": "ZONNEBEKE",
+        "street": "'s Graventafelstraat",
+        "postalCode": 8980,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.887539, "lng": 2.972138 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.891228, 50.859074], "type": "Point" },
+      "properties": {
+        "id": "95554f40-7233-48e7-ad80-f36f0382e89c",
+        "community": "IEPER",
+        "street": "Pilkemseweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.860244, "lng": 2.891517 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.938516, 50.917833], "type": "Point" },
+      "properties": {
+        "id": "57ff2931-a17a-4c36-aecf-82c8f3eeaa77",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Poelkapellestraat",
+        "postalCode": 8920,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.917356, "lng": 2.936064 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.886113, 50.851526], "type": "Point" },
+      "properties": {
+        "id": "b726c462-5b49-4117-8a8c-c2640e3dcb75",
+        "community": "IEPER",
+        "street": "Grote Markt",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.851654, "lng": 2.886985 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.945048, 50.908533], "type": "Point" },
+      "properties": {
+        "id": "5c627449-2b43-4d7f-b5e5-0568c3be6400",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Brugseweg",
+        "postalCode": 8920,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.911151, "lng": 2.947677 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.888732, 50.857744], "type": "Point" },
+      "properties": {
+        "id": "d781e200-0b96-4297-bc68-de497256cfe7",
+        "community": "IEPER",
+        "street": "Brugseweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.85871, "lng": 2.895567 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.796114, 50.782061], "type": "Point" },
+      "properties": {
+        "id": "0c523544-864d-49d9-9dec-5eb2d9c66c0f",
+        "community": "HEUVELLAND",
+        "street": "Kemmelbergweg",
+        "postalCode": 8951,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.779897, "lng": 2.803959 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.120542, 50.796177], "type": "Point" },
+      "properties": {
+        "id": "6f3e37b1-9aac-4f4d-bb08-4e6a8228aada",
+        "community": "MENEN",
+        "street": "Grote Markt",
+        "postalCode": 8930,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.796202, "lng": 3.120055 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.878428, 50.846677], "type": "Point" },
+      "properties": {
+        "id": "f9c2ee53-3ca2-44bb-af2a-ae786cd885dc",
+        "community": "IEPER",
+        "street": "Oudstrijderslaan",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.845843, "lng": 2.879194 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.877956, 50.846468], "type": "Point" },
+      "properties": {
+        "id": "7544dfe0-2056-4d8d-8e27-37117bd8c7f2",
+        "community": "IEPER",
+        "street": "Dikkebusseweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.845111, "lng": 2.876494 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.25706, 50.818764], "type": "Point" },
+      "properties": {
+        "id": "12765295-2529-456d-a418-ab912c723dda",
+        "community": "KORTRIJK",
+        "street": "Pottelberg",
+        "postalCode": 8500,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.815465, "lng": 3.253639 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.857616, 50.828158], "type": "Point" },
+      "properties": {
+        "id": "5b85ad2b-fb16-422b-8644-45f08019ab44",
+        "community": "IEPER",
+        "street": "Ruuschaartstraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.825289, "lng": 2.861668 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.038324, 50.780339], "type": "Point" },
+      "properties": {
+        "id": "69ead7c8-dfb2-4994-889d-89b4fb279414",
+        "community": "WERVIK",
+        "street": "Magdalenastraat",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.779819, "lng": 3.038739 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.866272, 50.860661], "type": "Point" },
+      "properties": {
+        "id": "6f323ce5-1a74-4f58-bb34-a4126ad62495",
+        "community": "IEPER",
+        "street": "Veurnseweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.857905, "lng": 2.87107 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.015044, 50.975162], "type": "Point" },
+      "properties": {
+        "id": "d0b2d0d0-4895-4bdd-923d-def93bd51d3b",
+        "community": "STADEN",
+        "street": "Guido Gezelleplein",
+        "postalCode": 8840,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.974937, "lng": 3.014285 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.886179, 50.841085], "type": "Point" },
+      "properties": {
+        "id": "1dd22c4c-3135-4dcd-bfc6-ace31aa69312",
+        "community": "IEPER",
+        "street": "Rijselsepoort",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.840731, "lng": 2.886367 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.73875, 50.848305], "type": "Point" },
+      "properties": {
+        "id": "a829c5db-27b0-42f0-8e8a-58c98dac3ebf",
+        "community": "POPERINGE",
+        "street": "Zuidlaan",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848038, "lng": 2.738321 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.096264, 50.851726], "type": "Point" },
+      "properties": {
+        "id": "d2427c0c-0ec1-44b0-b9f6-b92e26c6a7cf",
+        "community": "MOORSLEDE",
+        "street": "Plaats",
+        "postalCode": 8890,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.851657, "lng": 3.0954 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.876639, 50.831101], "type": "Point" },
+      "properties": {
+        "id": "e23bcb72-abbc-40f0-a006-7742643d71f9",
+        "community": "IEPER",
+        "street": "Kemmelseweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.827464, "lng": 2.872635 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.109369, 50.852878], "type": "Point" },
+      "properties": {
+        "id": "97735021-d71b-4099-8ecc-240c16fd2a88",
+        "community": "MOORSLEDE",
+        "street": "Meensesteenweg",
+        "postalCode": 8890,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.85137, "lng": 3.109828 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.876206, 50.851483], "type": "Point" },
+      "properties": {
+        "id": "179074de-d9cd-40d2-8e1e-3e724a5927d5",
+        "community": "IEPER",
+        "street": "Haiglaan",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.854913, "lng": 2.875791 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.034395, 50.780337], "type": "Point" },
+      "properties": {
+        "id": "c92f68df-a59f-4781-b6d0-d8962e13bd36",
+        "community": "WERVIK",
+        "street": "Ten Brielenlaan",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.779907, "lng": 3.035774 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.889574, 50.81188], "type": "Point" },
+      "properties": {
+        "id": "3dc7bab5-6950-4425-868b-966bf12226ec",
+        "community": "IEPER",
+        "street": "Sint-Elooisweg",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.810688, "lng": 2.89095 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.883847, 50.851915], "type": "Point" },
+      "properties": {
+        "id": "7bfa3609-1c24-43cc-9daa-bb9d732754c7",
+        "community": "IEPER",
+        "street": "Vandenpeereboomplein",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.852319, "lng": 2.883247 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.819732, 50.787516], "type": "Point" },
+      "properties": {
+        "id": "2997c03c-b518-461e-a972-1d273649638a",
+        "community": "HEUVELLAND",
+        "street": "Reningelststraat",
+        "postalCode": 8954,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.785163, "lng": 2.825254 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.699893, 50.831423], "type": "Point" },
+      "properties": {
+        "id": "c4fbecb1-380c-4215-8e34-288e3450dcc2",
+        "community": "POPERINGE",
+        "street": "Frans-Vlaanderenweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84139, "lng": 2.714317 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.045958, 51.198202], "type": "Point" },
+      "properties": {
+        "id": "34f9967e-f0f4-4fc2-8a89-3513416ef5c4",
+        "community": "GENT",
+        "street": "A10",
+        "postalCode": 9000,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 51.202487, "lng": 2.999259 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.747521, 50.854548], "type": "Point" },
+      "properties": {
+        "id": "0e4d9a69-1623-480b-b6db-2e3c4fb7bebb",
+        "community": "POPERINGE",
+        "street": "Ieperseweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.854528, "lng": 2.782815 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.908543, 50.806539], "type": "Point" },
+      "properties": {
+        "id": "6b0fc3b9-aff7-4594-afc6-67c5e3b7bd67",
+        "community": "IEPER",
+        "street": "Eekhofstraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.807826, "lng": 2.91445 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.072614, 50.821361], "type": "Point" },
+      "properties": {
+        "id": "3452a7df-30f8-4596-9ce6-41a0e3a7c1cd",
+        "community": "MENEN",
+        "street": "A19",
+        "postalCode": 8930,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.819233, "lng": 3.082262 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.891038, 50.85762], "type": "Point" },
+      "properties": {
+        "id": "62f6b1c3-3bc7-49f3-bf92-991acd9557d9",
+        "community": "IEPER",
+        "street": "Kalfvaart",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.857195, "lng": 2.890921 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.798981, 50.77948], "type": "Point" },
+      "properties": {
+        "id": "f2cd6ffd-c5a9-48b6-ac50-a0f2a9842765",
+        "community": "HEUVELLAND",
+        "street": "Godtschalckstraat",
+        "postalCode": 8951,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.779025, "lng": 2.786435 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.094093, 50.852154], "type": "Point" },
+      "properties": {
+        "id": "1fb1d96b-0cc1-4f81-b422-5fecd6467070",
+        "community": "MOORSLEDE",
+        "street": "Moorsledestraat",
+        "postalCode": 8890,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.85244, "lng": 3.093889 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.743869, 50.783072], "type": "Point" },
+      "properties": {
+        "id": "1a75860b-edfc-477a-8f9b-1b4ff6269a85",
+        "community": "HEUVELLAND",
+        "street": "Bellestraat",
+        "postalCode": 8954,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.786722, "lng": 2.747722 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.049538, 50.942784], "type": "Point" },
+      "properties": {
+        "id": "dc8c01c8-9661-4f35-9449-28bb4bfbe579",
+        "community": "STADEN",
+        "street": "Westrozebekestraat",
+        "postalCode": 8840,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.94214, "lng": 3.028963 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.721667, 50.854351], "type": "Point" },
+      "properties": {
+        "id": "b3bce5dc-cdce-45ca-8966-64b435a9a4b6",
+        "community": "POPERINGE",
+        "street": "Sint-Annaplein",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 51.211788, "lng": 3.231795 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872522, 50.845118], "type": "Point" },
+      "properties": {
+        "id": "0d473ad9-7432-4fbd-be74-570e186d0c96",
+        "community": "IEPER",
+        "street": "Posthoornstraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.845281, "lng": 2.872907 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.886159, 50.856145], "type": "Point" },
+      "properties": {
+        "id": "bbb9c301-1d3b-4965-b603-bad951886c4b",
+        "community": "IEPER",
+        "street": "Polenlaan",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.856951, "lng": 2.885648 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.981658, 50.812423], "type": "Point" },
+      "properties": {
+        "id": "f0063125-e377-4a51-b6b8-184fe00c239d",
+        "community": "ZONNEBEKE",
+        "street": "Zandvoordeplaats",
+        "postalCode": 8980,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.812904, "lng": 2.981193 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
       }
     },
     {
       "type": "Feature",
       "geometry": { "coordinates": [2.882339, 50.854098], "type": "Point" },
       "properties": {
-        "id": "097cc710-90ae-4c5c-b3d6-2d5748a34dcd",
-        "community": "Ieper",
+        "id": "dd86b45a-cef0-4763-9d2b-098b3c6d6305",
+        "community": "IEPER",
         "street": "Minneplein",
-        "postalCode": "8900",
-        "houseNumber": "82",
+        "postalCode": 8900,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.854081, "lng": 2.882338 },
+          "position_wgs": { "lat": 50.852909, "lng": 2.88197 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
@@ -91,33 +784,15 @@
     },
     {
       "type": "Feature",
-      "geometry": { "coordinates": [2.882338, 50.854081], "type": "Point" },
+      "geometry": { "coordinates": [2.865964, 50.889576], "type": "Point" },
       "properties": {
-        "id": "097cc710-90ae-4c5c-b3d6-2d5748a34dcd",
-        "community": "Ieper",
-        "street": "Minneplein",
-        "postalCode": "8900",
-        "houseNumber": "82",
+        "id": "bb8a5397-14ac-43c2-86ba-cf66591a822f",
+        "community": "IEPER",
+        "street": "Randweg",
+        "postalCode": 8904,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.854081, "lng": 2.882338 },
-          "type": "addressmatching",
-          "metaData": { "searchType": "pelias" }
-        },
-        "marker-color": "green"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "coordinates": [2.733844, 50.825864], "type": "Point" },
-      "properties": {
-        "id": "1eb50c88-41d7-4057-814a-df57eaa84b69",
-        "community": "Heuvelland",
-        "street": "Hogegraafstraat",
-        "postalCode": "8954",
-        "result": {
-          "succes": true,
-          "position_wgs": { "lat": 50.825859, "lng": 2.733837 },
+          "position_wgs": { "lat": 50.891012, "lng": 2.86585 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
@@ -126,36 +801,820 @@
     },
     {
       "type": "Feature",
-      "geometry": { "coordinates": [2.733837, 50.825859], "type": "Point" },
+      "geometry": { "coordinates": [2.875343, 50.849686], "type": "Point" },
       "properties": {
-        "id": "1eb50c88-41d7-4057-814a-df57eaa84b69",
-        "community": "Heuvelland",
-        "street": "Hogegraafstraat",
-        "postalCode": "8954",
+        "id": "a6f29388-e4c8-49ec-8674-fa6466fe1528",
+        "community": "IEPER",
+        "street": "Grachtstraat",
+        "postalCode": 8900,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.825859, "lng": 2.733837 },
+          "position_wgs": { "lat": 50.850084, "lng": 2.876629 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
-        "marker-color": "green"
+        "marker-color": "red"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "coordinates": [3.2314750729511266, 51.20605126474193],
-        "type": "Point"
-      },
+      "geometry": { "coordinates": [3.050056, 50.787658], "type": "Point" },
       "properties": {
-        "id": "28d003a6-89b9-492c-b08d-172e2ecdd1cf",
-        "community": "Brugge",
-        "street": "Koningin Astridpark",
+        "id": "72a68143-3212-4bfe-8c93-bff4682912ab",
+        "community": "WERVIK",
+        "street": "Geluwesesteenweg",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.798199, "lng": 3.0533 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.766369, 50.814407], "type": "Point" },
+      "properties": {
+        "id": "9940fbeb-65d7-424d-b673-1db6be6972ec",
+        "community": "POPERINGE",
+        "street": "Zevekotestraat",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.815131, "lng": 2.765467 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.044084, 50.781041], "type": "Point" },
+      "properties": {
+        "id": "fbdf519e-954f-4ce2-917b-84fc42c582cc",
+        "community": "WERVIK",
+        "street": "Gasstraat",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.780776, "lng": 3.043971 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.763207, 50.787418], "type": "Point" },
+      "properties": {
+        "id": "8461511d-8f42-4016-a0a0-96c32d59a355",
+        "community": "HEUVELLAND",
+        "street": "Rodebergstraat",
+        "postalCode": 8954,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.786232, "lng": 2.764103 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.88679, 50.8542], "type": "Point" },
+      "properties": {
+        "id": "2772cfaf-7933-4c3c-8a90-5e95fa231790",
+        "community": "STADEN",
+        "street": "Diksmuidestraat",
+        "postalCode": 8840,
+        "houseNumber": "70",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9790499, "lng": 3.0087469 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.74561, 50.833521], "type": "Point" },
+      "properties": {
+        "id": "70b618e6-b4a1-49e9-94d8-f48b7efe279e",
+        "community": "POPERINGE",
+        "street": "Baljuwstraat",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.818036, "lng": 2.76138 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.918091, 50.914095], "type": "Point" },
+      "properties": {
+        "id": "1581eaed-f913-49ad-900c-62082354c022",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Kasteelstraat",
+        "postalCode": 8920,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.914765, "lng": 2.917846 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.665421, 50.824247], "type": "Point" },
+      "properties": {
+        "id": "353274a5-f9f1-498c-b3bf-64356b706f63",
+        "community": "POPERINGE",
+        "street": "Trappistenweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.824486, "lng": 2.664666 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.198284, 50.829163], "type": "Point" },
+      "properties": {
+        "id": "8eb2afa1-b510-484a-ad96-3b462f0daa86",
+        "community": "KORTRIJK",
+        "street": "A19",
+        "postalCode": 8501,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.829766, "lng": 3.192167 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.923542, 50.895443], "type": "Point" },
+      "properties": {
+        "id": "5fb1f35e-79e6-43b1-839b-03a79d1317fd",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Bruine Broekstraat",
+        "postalCode": 8920,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.895506, "lng": 2.923939 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.742397, 50.857967], "type": "Point" },
+      "properties": {
+        "id": "837c4467-894a-4a98-8508-64b56e2616d8",
+        "community": "POPERINGE",
+        "street": "Elverdingseweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.862768, "lng": 2.749382 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.780423, 50.814016], "type": "Point" },
+      "properties": {
+        "id": "ba25b61f-4bb5-4bf8-b6a6-caddc4ac0799",
+        "community": "POPERINGE",
+        "street": "Clyttesteenweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.813974, "lng": 2.780779 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.050691, 50.780064], "type": "Point" },
+      "properties": {
+        "id": "354f139a-eb22-4471-9cd3-0106fffe84b3",
+        "community": "WERVIK",
+        "street": "Leiekaai",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.780022, "lng": 3.052236 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872484, 50.848558], "type": "Point" },
+      "properties": {
+        "id": "25db47ab-bffd-4473-bad3-6f56c8398d4d",
+        "community": "IEPER",
+        "street": "Sterrestraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848457, "lng": 2.87286 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.064386, 50.890932], "type": "Point" },
+      "properties": {
+        "id": "87d35586-a9fc-4601-88d0-835dcf47e1ee",
+        "community": "MOORSLEDE",
+        "street": "Breulstraat",
+        "postalCode": 8890,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.882447, "lng": 3.092137 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.00847, 50.85998], "type": "Point" },
+      "properties": {
+        "id": "96b8aaec-1798-4e42-b145-bf50bbb823f3",
+        "community": "WERVIK",
+        "street": "Beselarestraat",
+        "postalCode": 8940,
+        "houseNumber": "140",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8154098, "lng": 3.0693653 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.27405, 50.82605], "type": "Point" },
+      "properties": {
+        "id": "405bb9aa-cc01-425f-b7d4-73e585193b00",
+        "community": "IEPER",
+        "street": "Slachthuisstraat",
+        "postalCode": 8900,
+        "houseNumber": "7",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8545771, "lng": 2.8859757 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.328623, 50.90353], "type": "Point" },
+      "properties": {
+        "id": "668e74cb-bc05-4f0d-a402-d50240f9e766",
+        "community": "WEMMEL",
+        "street": "R0",
+        "postalCode": 1780,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9019, "lng": 4.325891 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.819732, 50.787516], "type": "Point" },
+      "properties": {
+        "id": "538db043-38f8-4504-bd4f-b9742625e227",
+        "community": "HEUVELLAND",
+        "street": "RENINGELSTSTRAAT (KEMMEL)",
+        "postalCode": 8956,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.785163, "lng": 2.825254 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.799477, 50.799688], "type": "Point" },
+      "properties": {
+        "id": "a52c81a1-bffe-40a2-8260-37143631ee24",
+        "community": "HEUVELLAND",
+        "street": "Dikkebusstraat",
+        "postalCode": 8951,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.800812, "lng": 2.801576 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.716752, 50.94705], "type": "Point" },
+      "properties": {
+        "id": "41154896-0acd-475d-adb0-45d137417e6b",
+        "community": "VLETEREN",
+        "street": "Stavelestraat",
+        "postalCode": 8640,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.94833, "lng": 2.719187 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.106958, 50.800419], "type": "Point" },
+      "properties": {
+        "id": "1de8a043-7712-494d-90e9-070cb96c4733",
+        "community": "MENEN",
+        "street": "Ieperstraat",
+        "postalCode": 8930,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.796466, "lng": 3.118547 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.852329, 50.760048], "type": "Point" },
+      "properties": {
+        "id": "817628e3-656d-4b33-8a2b-bc2fd4c70f23",
+        "community": "HEUVELLAND",
+        "street": "Dorpsstraat",
+        "postalCode": 8952,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.759724, "lng": 2.853489 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.859792, 50.765834], "type": "Point" },
+      "properties": {
+        "id": "c6eb09d4-0aa5-45c8-8fe2-726f49f6d5a0",
+        "community": "HEUVELLAND",
+        "street": "Wulvergemstraat",
+        "postalCode": 8952,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.766154, "lng": 2.860091 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.92296, 50.87484], "type": "Point" },
+      "properties": {
+        "id": "d2774458-8cc5-4d05-8ef5-6e144c3a51dd",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Kattestraat",
+        "postalCode": 8920,
+        "houseNumber": "15",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9474662, "lng": 2.9630637 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.045627, 50.782914], "type": "Point" },
+      "properties": {
+        "id": "a7eaebbd-1e64-4689-940d-247438588971",
+        "community": "WERVIK",
+        "street": "Molenstraat",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.782086, "lng": 3.045586 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.868387, 50.847416], "type": "Point" },
+      "properties": {
+        "id": "e186a2fc-aee1-4c00-83a5-0ef761e7a3c8",
+        "community": "IEPER",
+        "street": "Capucienenstraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84562, "lng": 2.86941 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.293885, 50.82854], "type": "Point" },
+      "properties": {
+        "id": "412dfcdd-a718-4265-845a-0a1c14d4fc58",
+        "community": "KORTRIJK",
+        "street": "R8",
+        "postalCode": 8500,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.841592, "lng": 3.27937 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.933455, 50.825041], "type": "Point" },
+      "properties": {
+        "id": "95844bd0-9673-44ae-80f1-dcbd9bea363c",
+        "community": "IEPER",
+        "street": "Wervikstraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.834272, "lng": 2.923756 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.786668, 50.902632], "type": "Point" },
+      "properties": {
+        "id": "b0913681-7ac5-436b-a047-add66f89b386",
+        "community": "VLETEREN",
+        "street": "Woestendorp",
+        "postalCode": 8640,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.901681, "lng": 2.788259 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.998505, 50.771749], "type": "Point" },
+      "properties": {
+        "id": "0edaade2-615f-4f01-ad20-4a26721f2fe9",
+        "community": "KOMEN",
+        "postalCode": 7780,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.775842, "lng": 3.001648 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.877523, 51.056389], "type": "Point" },
+      "properties": {
+        "id": "51699457-82a6-49df-b306-73d244035ffa",
+        "community": "DIKSMUIDE",
+        "street": "Hugo Verrieststraat",
+        "postalCode": 8600,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 51.093972, "lng": 3.01361 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.818416, 50.776762], "type": "Point" },
+      "properties": {
+        "id": "f680cec6-6a28-4f36-a684-0961ea3295a9",
+        "community": "HEUVELLAND",
+        "street": "Gremmerslinde",
+        "postalCode": 8951,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.775502, "lng": 2.838285 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.890673, 50.859646], "type": "Point" },
+      "properties": {
+        "id": "ca368868-be08-4944-8ca9-037b74520456",
+        "community": "IEPER",
+        "street": "Dehemlaan",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.868435, "lng": 2.888556 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.072614, 50.821361], "type": "Point" },
+      "properties": {
+        "id": "a0d7c208-b6ad-4e7e-8378-8cb0c7be32eb",
+        "community": "MENEN",
+        "street": "A19",
+        "postalCode": 8930,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.819233, "lng": 3.082262 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.843802, 50.84909], "type": "Point" },
+      "properties": {
+        "id": "3691a7a1-2747-4f90-862b-107197760521",
+        "community": "IEPER",
+        "street": "Hazewindstraat",
+        "postalCode": 8908,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.994882, "lng": 2.795516 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.62192, 50.920691], "type": "Point" },
+      "properties": {
+        "id": "46994d67-1a2f-4882-9505-eb06c7b7ad4c",
+        "community": "POPERINGE",
+        "street": "Bergenstraat",
+        "postalCode": 8972,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.921113, "lng": 2.621173 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.05659, 50.960994], "type": "Point" },
+      "properties": {
+        "id": "e6a3f3fe-7866-4660-ac39-dc2747067e86",
+        "community": "STADEN",
+        "street": "Sleihagestraat",
+        "postalCode": 8840,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.952309, "lng": 3.060076 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.793473, 50.898559], "type": "Point" },
+      "properties": {
+        "id": "579fb925-7876-4109-930c-4cd5a1e30ec5",
+        "community": "VLETEREN",
+        "street": "Elverdingestraat",
+        "postalCode": 8640,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.894917, "lng": 2.799366 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.620971, 50.863218], "type": "Point" },
+      "properties": {
+        "id": "5a2eaa2b-49b5-4032-857d-d511188509d7",
+        "community": "POPERINGE",
+        "street": "Moenaardestraat",
+        "postalCode": 8972,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.881292, "lng": 2.622054 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.803742, 50.753507], "type": "Point" },
+      "properties": {
+        "id": "67c06bc7-efe2-4a9d-8f87-6ffaf9d8e7c5",
+        "community": "HEUVELLAND",
+        "street": "Dranouterstraat",
+        "postalCode": 8950,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.754322, "lng": 2.802634 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.97276, 50.87057], "type": "Point" },
+      "properties": {
+        "id": "d43907c5-fdf4-411d-9838-023bc7e860c4",
+        "community": "POPERINGE",
+        "street": "Ieperstraat",
+        "postalCode": 8970,
+        "houseNumber": "167",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8548726, "lng": 2.7366917 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.779471, 50.858442], "type": "Point" },
+      "properties": {
+        "id": "55f61184-5855-4d4e-9495-66a8aaaa7cdb",
+        "community": "IEPER",
+        "street": "Galgestraat",
+        "postalCode": 8908,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.857208, "lng": 2.777093 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.446085, 51.205301], "type": "Point" },
+      "properties": {
+        "id": "2699d976-3fa2-4921-96b7-6a263ef0114a",
+        "community": "WERVIK",
+        "street": "'T Voske",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.780198, "lng": 3.069735 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.751921, 50.798502], "type": "Point" },
+      "properties": {
+        "id": "5daa254d-c78d-43b9-b91f-064f4f1a7203",
+        "community": "HEUVELLAND",
+        "street": "Blauwpoortakker",
+        "postalCode": 8954,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.797985, "lng": 2.751673 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.855287, 50.931728], "type": "Point" },
+      "properties": {
+        "id": "4fb84ddd-ac37-4ee5-9090-1facead0fb68",
+        "community": "LANGEMARK-POELKAPELLE",
+        "street": "Provincieweg",
+        "postalCode": 8920,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.933277, "lng": 2.856217 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.055078, 50.898492], "type": "Point" },
+      "properties": {
+        "id": "94db6ff6-b0e0-4d00-9370-e689289b5c3e",
+        "community": "MOORSLEDE",
+        "street": "Oostnieuwkerksestraat",
+        "postalCode": 8890,
         "result": {
           "succes": true,
           "position_wgs": {
-            "lat": 51.206044047284486,
-            "lng": 3.231468783936385
+            "lat": 50.89750605339549,
+            "lng": 3.0560196498211316
           },
           "type": "addressmatching",
           "metaData": { "searchType": "osm" }
@@ -165,37 +1624,15 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "coordinates": [3.231468783936385, 51.206044047284486],
-        "type": "Point"
-      },
+      "geometry": { "coordinates": [2.636174, 50.861416], "type": "Point" },
       "properties": {
-        "id": "28d003a6-89b9-492c-b08d-172e2ecdd1cf",
-        "community": "Brugge",
-        "street": "Koningin Astridpark",
+        "id": "e9e744c1-34ee-4f26-a4e2-66daa0e36b52",
+        "community": "POPERINGE",
+        "street": "Douvieweg",
+        "postalCode": 8978,
         "result": {
           "succes": true,
-          "position_wgs": {
-            "lat": 51.206044047284486,
-            "lng": 3.231468783936385
-          },
-          "type": "addressmatching",
-          "metaData": { "searchType": "osm" }
-        },
-        "marker-color": "green"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "coordinates": [4.133303, 50.921059], "type": "Point" },
-      "properties": {
-        "id": "a5fa04f8-b1c6-4f94-80a5-4991e0b47e10",
-        "community": "Aalst",
-        "street": "Abdijstraat",
-        "houseNumber": "116",
-        "result": {
-          "succes": true,
-          "position_wgs": { "lat": 50.919028, "lng": 4.138429 },
+          "position_wgs": { "lat": 50.860849, "lng": 2.634286 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
@@ -204,19 +1641,1294 @@
     },
     {
       "type": "Feature",
-      "geometry": { "coordinates": [4.138429, 50.919028], "type": "Point" },
+      "geometry": { "coordinates": [3.131048, 50.948603], "type": "Point" },
       "properties": {
-        "id": "a5fa04f8-b1c6-4f94-80a5-4991e0b47e10",
-        "community": "Aalst",
-        "street": "Abdijstraat",
-        "houseNumber": "116",
+        "id": "887a9af9-a2a8-4123-a28c-7543d4d6e86f",
+        "community": "ROESELARE",
+        "street": "Ardooisesteenweg",
+        "postalCode": 8800,
         "result": {
           "succes": true,
-          "position_wgs": { "lat": 50.919028, "lng": 4.138429 },
+          "position_wgs": { "lat": 50.94886, "lng": 3.131353 },
           "type": "addressmatching",
           "metaData": { "searchType": "pelias" }
         },
-        "marker-color": "green"
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.25274, 50.91377], "type": "Point" },
+      "properties": {
+        "id": "96ea104d-0c1e-4c33-a5bd-8c684f266164",
+        "community": "MOORSLEDE",
+        "street": "Ketenstraat",
+        "postalCode": 8890,
+        "houseNumber": "5",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8506173, "lng": 3.0941487 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.822174, 50.851805], "type": "Point" },
+      "properties": {
+        "id": "4560d07d-0af0-4726-aca9-5372065bfc31",
+        "community": "IEPER",
+        "street": "Bellestraat",
+        "postalCode": 8908,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.852035, "lng": 2.822495 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.048239, 50.781731], "type": "Point" },
+      "properties": {
+        "id": "a67e8e1a-585e-4181-91e3-64613c0447ae",
+        "community": "MOORSLEDE",
+        "street": "Stationstraat",
+        "postalCode": 8890,
+        "houseNumber": "27",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.892218, "lng": 3.0588245 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.905648, 50.820555], "type": "Point" },
+      "properties": {
+        "id": "dcf72aaa-fc9b-4a88-83d5-3264c9f87606",
+        "community": "IEPER",
+        "street": "Verbrandemolenstraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.821665, "lng": 2.911582 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.064547, 51.185205], "type": "Point" },
+      "properties": {
+        "id": "0a7faa8e-426f-4d9e-ab68-8ac20444f3dd",
+        "community": "JABBEKE",
+        "street": "Gemeneweidestraat",
+        "postalCode": 8490,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 51.182387, "lng": 3.064815 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.84193, 50.753628], "type": "Point" },
+      "properties": {
+        "id": "2da4d770-2545-4e3b-a7f9-f79fec4affe1",
+        "community": "HEUVELLAND",
+        "street": "Nieuwkerkestraat",
+        "postalCode": 8950,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.759076, "lng": 2.851439 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.071463, 50.894027], "type": "Point" },
+      "properties": {
+        "id": "ab1d18d7-c8f8-4f3d-be79-b757a805e478",
+        "community": "MOORSLEDE",
+        "street": "Gentsestraat",
+        "postalCode": 8890,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.893824, "lng": 3.070408 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.884856, 50.853336], "type": "Point" },
+      "properties": {
+        "id": "f41eae1e-aeb7-4075-aa24-3d7c9de0eb11",
+        "community": "IEPER",
+        "street": "Surmont de Volsberghestraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.85327, "lng": 2.88435 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.726426, 50.84955], "type": "Point" },
+      "properties": {
+        "id": "7be00621-2222-4832-a7e3-faab934ce6a4",
+        "community": "POPERINGE",
+        "street": "Westouterstraat",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848542, "lng": 2.727345 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.942893, 50.848545], "type": "Point" },
+      "properties": {
+        "id": "8f56176f-b586-499f-be45-48bf4c8b55bb",
+        "community": "IEPER",
+        "street": "Bellewaardestraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84572, "lng": 2.950562 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.123281, 50.952383], "type": "Point" },
+      "properties": {
+        "id": "1e93c7a5-47f5-450a-826e-0ad1363d37bd",
+        "community": "ROESELARE",
+        "street": "Brugsesteenweg",
+        "postalCode": 8800,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.951161, "lng": 3.119936 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.421142, 50.917152], "type": "Point" },
+      "properties": {
+        "id": "d09158b7-b8b2-4df0-8643-e9717e2d6879",
+        "community": "WERVIK",
+        "street": "Leie (Richting Frankrijk)",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.907411, "lng": 3.398765 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.786382, 50.756773], "type": "Point" },
+      "properties": {
+        "id": "72e765b1-91bd-4a37-baa5-41fa29c260ac",
+        "community": "HEUVELLAND",
+        "street": "Ammaniestraat",
+        "postalCode": 8951,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.754937, "lng": 2.78098 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.749594, 50.820191], "type": "Point" },
+      "properties": {
+        "id": "fb39a761-b1be-46ab-876b-449f327b5888",
+        "community": "HEUVELLAND",
+        "street": "Sint-Pietersstraat",
+        "postalCode": 8956,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.81966, "lng": 2.749115 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.076102, 50.809755], "type": "Point" },
+      "properties": {
+        "id": "dec437dc-15f3-460e-a9fe-40e74acae10a",
+        "community": "WERVIK",
+        "street": "Sint Denijsplaats",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.809828, "lng": 3.076439 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.887533, 50.850127], "type": "Point" },
+      "properties": {
+        "id": "5c69cfd9-8ab2-46bb-bec5-968e936ff247",
+        "community": "IEPER",
+        "street": "D'Hondtstraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.849346, "lng": 2.888342 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.848235, 50.823801], "type": "Point" },
+      "properties": {
+        "id": "c058ac79-8e0e-447c-80bb-5826ee2ffdff",
+        "community": "IEPER",
+        "street": "Dikkebusvijverdreef",
+        "postalCode": 8908,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.824046, "lng": 2.848247 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.874955, 50.850188], "type": "Point" },
+      "properties": {
+        "id": "59712319-c4e2-475f-bd25-82af91b0a4d4",
+        "community": "IEPER",
+        "street": "Goesdamstraat",
+        "postalCode": 8900,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.849991, "lng": 2.875165 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.751688, 50.841796], "type": "Point" },
+      "properties": {
+        "id": "203f305c-ebb8-4c71-b649-26183dfecbb6",
+        "community": "POPERINGE",
+        "street": "Ouderdomseweg",
+        "postalCode": 8970,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.82972, "lng": 2.774447 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.928301, 50.844122], "type": "Point" },
+      "properties": {
+        "id": "28e186f5-6b55-48ce-89fa-99fe06fd5932",
+        "community": "IEPER",
+        "street": "Wulvestraat",
+        "postalCode": 8902,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.841442, "lng": 2.927742 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.829689, 50.746999], "type": "Point" },
+      "properties": {
+        "id": "3026b4cc-a6f9-4fe2-9cc4-358f5129ade6",
+        "community": "HEUVELLAND",
+        "street": "Vogelweelde",
+        "postalCode": 8950,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.746596, "lng": 2.830063 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.93662, 51.21658], "type": "Point" },
+      "properties": {
+        "id": "29489ce1-ff2a-4d4b-9463-3ceaf0309b04",
+        "community": "ZONNEBEKE",
+        "street": "Zandvoordestraat",
+        "postalCode": 8980,
+        "houseNumber": "30",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8232609, "lng": 2.9862134 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.101315, 50.796456], "type": "Point" },
+      "properties": {
+        "id": "988939cb-3775-4a59-8e44-b42ce7d088c5",
+        "community": "MENEN",
+        "street": "Hogeweg",
+        "postalCode": 8930,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.796469, "lng": 3.098329 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.029877, 50.779214], "type": "Point" },
+      "properties": {
+        "id": "7efbf2e0-4f08-438e-bed2-b9352ee137e5",
+        "community": "WERVIK",
+        "street": "Komenstraat",
+        "postalCode": 8940,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.781053, "lng": 3.038068 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.782889, 50.805825], "type": "Point" },
+      "properties": {
+        "id": "6b5e8911-5932-413a-8084-affea3c80500",
+        "community": "HEUVELLAND",
+        "street": "Kasteelmolenstraat",
+        "postalCode": 8954,
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.805631, "lng": 2.783081 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.876639, 50.831101], "type": "Point" },
+      "properties": {
+        "id": "d6450862-f75c-4da7-9f4c-9e220f46fe0e",
+        "community": "IEPER",
+        "street": "Kemmelseweg",
+        "postalCode": 8900,
+        "hmPost": 331.2,
+        "intersection": "Ruuschaartstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.827464, "lng": 2.872635 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.045958, 51.198202], "type": "Point" },
+      "properties": {
+        "id": "f58b08a6-fc46-4fea-8f7a-4fdbd6778bc1",
+        "community": "GENT",
+        "street": "A10",
+        "postalCode": 9052,
+        "intersection": "A14-E17 Richting Frankrijk",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 51.202487, "lng": 2.999259 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8882752, 50.9003534], "type": "Point" },
+      "properties": {
+        "id": "9ba8df60-95ea-4543-82f0-4f809ccd1f7b",
+        "community": "IEPER",
+        "street": "Pilkemseweg",
+        "postalCode": 8900,
+        "intersection": "Langemarkseweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.860244, "lng": 2.891517 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.865964, 50.889576], "type": "Point" },
+      "properties": {
+        "id": "656169af-8cad-4196-9ed2-e558381d184d",
+        "community": "IEPER",
+        "street": "Randweg",
+        "postalCode": 8904,
+        "intersection": "Langemarkseweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.891012, "lng": 2.86585 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.865964, 50.889576], "type": "Point" },
+      "properties": {
+        "id": "75415d26-550f-455e-8ace-72401dfb214c",
+        "community": "IEPER",
+        "street": "Randweg",
+        "postalCode": 8904,
+        "intersection": "Langemarkseweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.891012, "lng": 2.86585 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.217618, 50.833881], "type": "Point" },
+      "properties": {
+        "id": "06657604-10d5-4748-add8-9810625aee15",
+        "community": "WEVELGEM",
+        "street": "R8",
+        "postalCode": 8560,
+        "intersection": "Heulestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.826324, "lng": 3.21724 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.852329, 50.760048], "type": "Point" },
+      "properties": {
+        "id": "cb9ecd34-37fd-4003-a713-072e0bd69134",
+        "community": "HEUVELLAND",
+        "street": "Dorpsstraat",
+        "postalCode": 8952,
+        "intersection": "Sint Machutusweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.759724, "lng": 2.853489 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8714644, 50.857585], "type": "Point" },
+      "properties": {
+        "id": "e90f5d79-0c5e-4f17-b3ab-33f61cff13e7",
+        "community": "IEPER",
+        "street": "Oude Veurnestraat",
+        "postalCode": 8900,
+        "intersection": "Haiglaan",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.858814, "lng": 2.876713 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.865964, 50.889576], "type": "Point" },
+      "properties": {
+        "id": "91af716c-1939-4541-afdd-43783f4f1f7b",
+        "community": "IEPER",
+        "street": "Randweg",
+        "postalCode": 8904,
+        "intersection": "Langemarkseweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.891012, "lng": 2.86585 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.665421, 50.824247], "type": "Point" },
+      "properties": {
+        "id": "b10e9e80-a32d-45d1-93fc-4b3cf24f8111",
+        "community": "POPERINGE",
+        "street": "Trappistenweg",
+        "postalCode": 8970,
+        "intersection": "Oude-Poperingestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.824486, "lng": 2.664666 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8712225, 50.8492085], "type": "Point" },
+      "properties": {
+        "id": "36b6a5c2-75aa-4395-bde7-066c67b053be",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "Sterrestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.875864, 50.8160456], "type": "Point" },
+      "properties": {
+        "id": "fc063a50-7cef-48dc-9a2b-e2a298940ee9",
+        "community": "IEPER",
+        "street": "Wijtschatestraat",
+        "postalCode": 8902,
+        "intersection": "Voormezele-Dorp",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.780779, "lng": 2.863452 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.0501702, 50.7873843], "type": "Point" },
+      "properties": {
+        "id": "19c4a162-e5be-4a46-8737-014d8b771895",
+        "community": "WERVIK",
+        "street": "Geluwesesteenweg",
+        "postalCode": 8940,
+        "intersection": "Hoogweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.798199, "lng": 3.0533 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.877956, 50.846468], "type": "Point" },
+      "properties": {
+        "id": "7092d69d-658d-43b1-af0f-075f2fb3a53b",
+        "community": "IEPER",
+        "street": "Dikkebusseweg",
+        "postalCode": 8900,
+        "intersection": "Ruuschaartstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.845111, "lng": 2.876494 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.7411488, 50.7817421], "type": "Point" },
+      "properties": {
+        "id": "1fba014b-7032-4475-81a1-2598ded7f556",
+        "community": "HEUVELLAND",
+        "street": "Bellestraat",
+        "postalCode": 8954,
+        "intersection": "Bellestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.7970457, "lng": 2.7464636 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "intersection" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.866272, 50.860661], "type": "Point" },
+      "properties": {
+        "id": "cce07d96-4860-450f-9c4c-875333c00a19",
+        "community": "IEPER",
+        "street": "Veurnseweg",
+        "postalCode": 8900,
+        "intersection": "d'Enneti√®resplein",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.857905, "lng": 2.87107 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.887157, 50.7836], "type": "Point" },
+      "properties": {
+        "id": "cfc4d01b-6253-4c66-bd27-42e35aa4356d",
+        "community": "HEUVELLAND",
+        "street": "Ieperstraat",
+        "postalCode": 8953,
+        "intersection": "Nieuwkerkestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.781875, "lng": 2.887717 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.900793, 50.8422906], "type": "Point" },
+      "properties": {
+        "id": "8addd91b-8e61-426e-ab7b-d4afff93eaff",
+        "community": "IEPER",
+        "street": "Zuiderring",
+        "postalCode": 8900,
+        "intersection": "Zillebekevoetweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.842846, "lng": 2.889698 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "711721fd-4b19-4aa5-abb6-d10774da160c",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "intersection": "Rodenbachstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8764505, 50.8513272], "type": "Point" },
+      "properties": {
+        "id": "c5e4fa52-d01a-4215-aab3-cc4ebcb8176b",
+        "community": "IEPER",
+        "street": "Elverdingestraat",
+        "postalCode": 8900,
+        "intersection": "Haiglaan",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.851834, "lng": 2.879986 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8764505, 50.8513272], "type": "Point" },
+      "properties": {
+        "id": "5f03e38b-9efe-4188-af21-d6eea39a73ea",
+        "community": "IEPER",
+        "street": "Haiglaan",
+        "postalCode": 8900,
+        "intersection": "Elverdingestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.854913, "lng": 2.875791 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.799477, 50.799688], "type": "Point" },
+      "properties": {
+        "id": "8312233d-bb21-4022-85da-0c46e452de55",
+        "community": "HEUVELLAND",
+        "street": "Dikkebusstraat",
+        "postalCode": 8951,
+        "intersection": "Reningelststraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.800812, "lng": 2.801576 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8761953, 50.8512638], "type": "Point" },
+      "properties": {
+        "id": "5ed3751a-a4a2-44c3-85fa-99feffc35e28",
+        "community": "IEPER",
+        "street": "Haiglaan",
+        "postalCode": 8900,
+        "intersection": "Capronstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.854913, "lng": 2.875791 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.890683, 50.76535], "type": "Point" },
+      "properties": {
+        "id": "9734cb42-e2ad-4406-9d41-f99c8f0562c7",
+        "community": "MESEN",
+        "street": "Nieuwkerkestraat",
+        "postalCode": 8957,
+        "intersection": "Ieperstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.763106, "lng": 2.883657 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8861698, 50.8457842], "type": "Point" },
+      "properties": {
+        "id": "b3521f91-c6e1-4b36-b916-2917e876bd30",
+        "community": "IEPER",
+        "street": "Zaalhof",
+        "postalCode": 8900,
+        "intersection": "Wateringstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.846458, "lng": 2.886562 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
+      "properties": {
+        "id": "6761d43d-be08-4fa9-9dcd-0fb25233976c",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "Hospitaalstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.896702, 50.765828], "type": "Point" },
+      "properties": {
+        "id": "8b11eaf6-6328-41df-8fe0-55b689c3e15c",
+        "community": "MESEN",
+        "street": "Ieperstraat",
+        "postalCode": 8957,
+        "intersection": "Nieuwkerkestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.781875, "lng": 2.887717 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.891228, 50.859074], "type": "Point" },
+      "properties": {
+        "id": "63589c93-51ac-47fb-95d3-1f91f06c8932",
+        "community": "IEPER",
+        "street": "Pilkemseweg",
+        "postalCode": 8900,
+        "intersection": "Langemarkstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.860244, "lng": 2.891517 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "111748bf-7769-4d09-91ef-1d6331dd5dde",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "intersection": "Briekestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "815f059b-8d5b-4fc3-bc8a-74e949f72bfb",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "intersection": "Dikkebusseweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.786893, 50.867261], "type": "Point" },
+      "properties": {
+        "id": "4f8b8b05-4e32-4b37-ba09-c8cec1b50e31",
+        "community": "IEPER",
+        "street": "Sint-Pieterstraat",
+        "postalCode": 8900,
+        "intersection": "Gasthuisstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.866965, "lng": 2.786398 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
+      "properties": {
+        "id": "97458ca2-31ab-486b-99b0-f9ae1d089d37",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "Guido Gezellestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8266193, 50.8562965], "type": "Point" },
+      "properties": {
+        "id": "88b3cbcf-05a8-46d9-84fe-bbb082a631c2",
+        "community": "IEPER",
+        "street": "de Cerfstraat",
+        "postalCode": 8908,
+        "intersection": "Vlamertingestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.855909, "lng": 2.823767 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8327591, 50.8479297], "type": "Point" },
+      "properties": {
+        "id": "5841260c-92a3-43a7-8c43-a7a231127e17",
+        "community": "IEPER",
+        "street": "Rodenbachstraat",
+        "postalCode": 8908,
+        "intersection": "Noorderring",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.847595, "lng": 2.833262 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
+      "properties": {
+        "id": "80829d78-324b-4f31-a114-ebefb1b50017",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "Hazewindstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.832627, 50.913865], "type": "Point" },
+      "properties": {
+        "id": "ffd60aaf-6b35-4af0-96b8-16c9e63dffee",
+        "community": "IEPER",
+        "street": "Zuidschotestraat",
+        "postalCode": 8904,
+        "intersection": "Lotzstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.92275, "lng": 2.856852 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8923982, 50.8570236], "type": "Point" },
+      "properties": {
+        "id": "e68e2d36-1e06-40e6-b718-776ec0fe3cb2",
+        "community": "IEPER",
+        "street": "Lindendreef",
+        "postalCode": 8900,
+        "intersection": "Vrijheidstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.857267, "lng": 2.893477 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "dd2dd4f4-9cf6-483b-9079-f14f45a7e57f",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "intersection": "Rodenbachstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
+      "properties": {
+        "id": "e8e078ed-0d2e-4272-af79-fc449b1889da",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "Bellestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.749594, 50.820191], "type": "Point" },
+      "properties": {
+        "id": "793148d1-ec4a-4a88-a995-223624b2904c",
+        "community": "HEUVELLAND",
+        "street": "Sint-Pietersstraat",
+        "postalCode": 8956,
+        "intersection": "Lepelaarstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.81966, "lng": 2.749115 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.872952, 50.850101], "type": "Point" },
+      "properties": {
+        "id": "6a19dcd1-40fd-46f0-bfc0-9c8072fd019e",
+        "community": "IEPER",
+        "street": "Poperingseweg",
+        "postalCode": 8900,
+        "intersection": "GEZELLESTRAAT",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.848965, "lng": 2.867603 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8092008, 50.8516869], "type": "Point" },
+      "properties": {
+        "id": "4c6fc399-8be4-4bc1-8a17-dcdcdda0513c",
+        "community": "IEPER",
+        "street": "Lissewallestraat",
+        "postalCode": 8908,
+        "intersection": "Casselstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84908, "lng": 2.812313 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.900793, 50.8422906], "type": "Point" },
+      "properties": {
+        "id": "3c9f7618-539d-4cf2-ad5b-1697bce34438",
+        "community": "IEPER",
+        "street": "Zillebekevoetweg",
+        "postalCode": 8900,
+        "intersection": "Zuiderring",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.840863, "lng": 2.903263 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.045627, 50.782914], "type": "Point" },
+      "properties": {
+        "id": "2b23d77d-7396-4844-8a7c-72f33c6a01ad",
+        "community": "WERVIK",
+        "street": "Molenstraat",
+        "postalCode": 8940,
+        "intersection": "Grauwe Zusterstraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.782086, "lng": 3.045586 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8764505, 50.8513272], "type": "Point" },
+      "properties": {
+        "id": "a6f041ee-6b6c-42de-820d-922d8d0f739c",
+        "community": "IEPER",
+        "street": "Elverdingestraat",
+        "postalCode": 8900,
+        "intersection": "Haiglaan",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.851834, "lng": 2.879986 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.8805, 50.870828], "type": "Point" },
+      "properties": {
+        "id": "d61bfe9f-8a7f-4c9c-ab77-7157519015e3",
+        "community": "IEPER",
+        "street": "Noorderring",
+        "postalCode": 8900,
+        "intersection": "Hoge Ziekenweg",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.870686, "lng": 2.879079 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [2.818164, 50.886883], "type": "Point" },
+      "properties": {
+        "id": "675bcd3f-49a8-4fd6-a4d4-49c83f042fb9",
+        "community": "IEPER",
+        "street": "Steenstraat",
+        "postalCode": 8904,
+        "intersection": "Zwartestraat",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.888696, "lng": 2.817886 },
+          "type": "addressmatching",
+          "metaData": { "searchType": "pelias" }
+        },
+        "marker-color": "red"
       }
     }
   ]
