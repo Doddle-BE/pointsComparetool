@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orbit-pointscomparetool
+spec:
+  selector:
+    matchLabels:
+      app: orbit-pointscomparetool
+  replicas: 3
+  revisionHistoryLimit: 3
+  template:
+    metadata:
+      labels:
+        app: orbit-pointscomparetool
+    spec:
+      imagePullSecrets:
+        - name: acrorbitgtbelgium
+      containers:
+        - name: orbit-pointscomparetool
+          image: orbitgtbelgium.azurecr.io/orbit-pointscomparetool:1.0.3
+          imagePullPolicy: Always
+          env:
+            - name: TZ
+              value: Europe/Brussels
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 3
+          resources:
+            requests:
+              cpu: "5m"
+              memory: "16Mi"
+            limits:
+              cpu: "10m"
+              memory: "32Mi"
+          securityContext:
+            runAsNonRoot: false

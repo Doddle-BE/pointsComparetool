@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: orbit-pointscomparetool
+  labels:
+    app: orbit-pointscomparetool
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  tls:
+    - hosts:
+        - pointscomparetool.platform.orbitgis.com
+      secretName: tls-pointscomparetool-secret
+  rules:
+    - host: pointscomparetool.platform.orbitgis.com
+      http:
+        paths:
+          - path: /(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: orbit-pointscomparetool-service
+                port:
+                  number: 80

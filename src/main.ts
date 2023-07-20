@@ -1,10 +1,8 @@
-
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { GeoJSON } from "geojson";
 import geoJson from "./geojson.json";
 import "./style.css";
-import * as turf from '@turf/turf';
+import bbox from "@turf/bbox";
 
 // HELPER FUNCTIONS
 const makeActive = (button: Element) => {
@@ -40,7 +38,7 @@ const filterGeojson = (filterFn: (feature) => boolean) => {
 const map = new maplibregl.Map({
   container: "map",
   style:
-    "https://tileserver.develop.platform.orbitgis.com/styles/osm/style.json",
+    "https://api.maptiler.com/maps/streets-v2/style.json?key=62WXuWfw6hVYJxeAHjwS",
   center: [3.4472, 50.994],
   zoom: 9,
   hash: true
@@ -70,17 +68,20 @@ map.on("load", () => {
   map.on('mouseenter', 'markers', (e) => {
     map.getCanvas().style.cursor = 'pointer';
 
-    const coordinates = e?.features?.[0].geometry?.coordinates?.slice();
-    const description = `
-    <p>${e?.features?.[0].properties.street} ${e?.features?.[0].properties.houseNumber ? e?.features?.[0].properties.houseNumber : ""}</p>
-    <p>${e?.features?.[0].properties.postalCode ? e?.features?.[0].properties.postalCode : ""} ${e?.features?.[0].properties.community ? e?.features?.[0].properties.community : ""}</p>
-    `
+    const geometry = e?.features?.[0].geometry;
 
-    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    if (geometry?.type === "Point") {
+      const coordinates = geometry?.coordinates?.slice() as [number, number];
+      const description = `
+      <p>${e?.features?.[0].properties.street} ${e?.features?.[0].properties.houseNumber ? e?.features?.[0].properties.houseNumber : ""}</p>
+      <p>${e?.features?.[0].properties.postalCode ? e?.features?.[0].properties.postalCode : ""} ${e?.features?.[0].properties.community ? e?.features?.[0].properties.community : ""}</p>
+      ${e?.features?.[0].properties.intersection ? "<p>Intersection: " + e?.features?.[0].properties.intersection + "</p>" : ""}
+      `
+      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      }
+      popup.setLngLat(coordinates).setHTML(description).addTo(map);
     }
-
-    popup.setLngLat(coordinates).setHTML(description).addTo(map);
   });
 
   map.on('mouseleave', 'markers', () => {
@@ -146,7 +147,7 @@ document.querySelectorAll("input[type=radio]").forEach((radio) => {
     const value = (e.target as HTMLInputElement).value;
 
     if (value === "all") {
-      const filtered = filterGeojson(f => true);
+      const filtered = filterGeojson(_ => true);
 
       renderItemsList(filtered);
       map.setFilter("markers", null);
@@ -190,10 +191,10 @@ const renderItemsList = (filtered) => {
       `;
     featureDiv.className = "featureDiv";
 
-    featureDiv.addEventListener("click", () => {
+    featureDiv.addEventListener("click", async () => {
       map.setFilter("markers", ["==", "id", feature.properties.id]);
       const filtered = filterGeojson(f => f.properties.id === feature.properties.id)
-      const bboxCoords = turf.bbox({
+      const bboxCoords = bbox({
         type: "FeatureCollection",
         features: filtered
       });
@@ -234,10 +235,8 @@ const renderItemsList = (filtered) => {
 }
 
 const init = () => {
-  const filtered = filterGeojson(f => true);
-
+  const filtered = filterGeojson(_ => true);
   renderItemsList(filtered);
-  map.setFilter("markers", null);
 };
 
 init();

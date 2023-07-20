@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: orbit-pointscomparetool-service
+  labels:
+    app: orbit-pointscomparetool
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 80
+      name: http
+  type: LoadBalancer
+  selector:
+    app: orbit-pointscomparetool
