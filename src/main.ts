@@ -1,5 +1,6 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+// import geoJson from "./aalst4_geojson.json";
 import geoJson from "./geojson.json";
 import "./style.css";
 import bbox from "@turf/bbox";
@@ -73,9 +74,10 @@ map.on("load", () => {
     if (geometry?.type === "Point") {
       const coordinates = geometry?.coordinates?.slice() as [number, number];
       const description = `
-      <p>${e?.features?.[0].properties.street} ${e?.features?.[0].properties.houseNumber ? e?.features?.[0].properties.houseNumber : ""}</p>
-      <p>${e?.features?.[0].properties.postalCode ? e?.features?.[0].properties.postalCode : ""} ${e?.features?.[0].properties.community ? e?.features?.[0].properties.community : ""}</p>
-      ${e?.features?.[0].properties.intersection ? "<p>Intersection: " + e?.features?.[0].properties.intersection + "</p>" : ""}
+      ${e?.features?.[0].properties.poi ? "<h4><span>📍&nbsp;</span>" + e?.features?.[0].properties.poi + "</h4>" : ""}
+      <p>${e?.features?.[0].properties.street} ${e?.features?.[0].properties.houseNumber ? e?.features?.[0].properties.houseNumber : ""}<br />
+      ${e?.features?.[0].properties.postalCode ? e?.features?.[0].properties.postalCode : ""} ${e?.features?.[0].properties.community ? e?.features?.[0].properties.community : ""}</p>
+      ${e?.features?.[0].properties.intersection ? "<p>⏧: " + e?.features?.[0].properties.intersection + "</p>" : ""}
       `
       while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
@@ -181,8 +183,10 @@ const renderItemsList = (filtered) => {
     featureDiv.dataset.id = feature.properties.id;
     featureDiv.innerHTML = `
       <div>
+        ${feature.properties.poi ? "<h4><span>📍 </span>" + feature.properties.poi + "</h4>" : ""}
         <h4>${feature.properties.street} ${feature.properties.houseNumber ? feature.properties.houseNumber : ""}</h4>
         <h4>${feature.properties.postalCode ? feature.properties.postalCode : ""} ${feature.properties.community ? feature.properties.community : ""}</h4>
+        ${feature.properties.intersection ? "<h4><span id='intersection'>⏧&nbsp;</span>" + feature.properties.intersection + "</h4>" : ""}
       </div>
       <div id="goodOrFault">
         <button id="good">✅</button>

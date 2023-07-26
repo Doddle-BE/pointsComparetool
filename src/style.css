@@ -71,3 +71,7 @@ body {
 #goodOrFault button.buttonInactive {
   opacity: 0.5
 }
+
+#intersection {
+  font-size: 2rem;
+}
