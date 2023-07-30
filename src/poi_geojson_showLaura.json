@@ -1,0 +1,1604 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.037488, 50.93777], "type": "Point" },
+      "properties": {
+        "id": "e4362238-5229-46e4-966c-597dde011969",
+        "community": "Aalst",
+        "street": "Hopmarkt",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "warenhuis LIDL",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938225065005774,
+            "lng": 4.037412612187381
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.037412612187381, 50.938225065005774],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "e4362238-5229-46e4-966c-597dde011969",
+        "community": "Aalst",
+        "street": "Hopmarkt",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "warenhuis LIDL",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938225065005774,
+            "lng": 4.037412612187381
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.999646, 50.921958], "type": "Point" },
+      "properties": {
+        "id": "75343c49-4e21-4517-bd6d-70aefdb680da",
+        "community": "Aalst",
+        "street": "Molenstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "panda schoenenwinkel",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93913162504521,
+            "lng": 4.041382350632891
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.041382350632891, 50.93913162504521],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "75343c49-4e21-4517-bd6d-70aefdb680da",
+        "community": "Aalst",
+        "street": "Molenstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "panda schoenenwinkel",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93913162504521,
+            "lng": 4.041382350632891
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.037488, 50.93777], "type": "Point" },
+      "properties": {
+        "id": "3a284fcf-64c3-43e9-9708-dc3748ea55fc",
+        "community": "Aalst",
+        "street": "Hopmarkt",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Parking Hopmarkt",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938225065005774,
+            "lng": 4.037412612187381
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.037412612187381, 50.938225065005774],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3a284fcf-64c3-43e9-9708-dc3748ea55fc",
+        "community": "Aalst",
+        "street": "Hopmarkt",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Parking Hopmarkt",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938225065005774,
+            "lng": 4.037412612187381
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.045437, 50.936062], "type": "Point" },
+      "properties": {
+        "id": "9a5cfc95-9a07-472b-a2e7-aa26ad16f27a",
+        "community": "Aalst",
+        "street": "Burchtstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "parkeermeter AAL 0063",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937194517574994,
+            "lng": 4.04377325303716
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.04377325303716, 50.937194517574994],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9a5cfc95-9a07-472b-a2e7-aa26ad16f27a",
+        "community": "Aalst",
+        "street": "Burchtstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "parkeermeter AAL 0063",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937194517574994,
+            "lng": 4.04377325303716
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.038153, 50.928897], "type": "Point" },
+      "properties": {
+        "id": "f074f816-225c-49fa-9312-d1748400d933",
+        "community": "Aalst",
+        "street": "Parklaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "park van Aalst - Betong",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93010881484492,
+            "lng": 4.040900434870094
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.040900434870094, 50.93010881484492],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "f074f816-225c-49fa-9312-d1748400d933",
+        "community": "Aalst",
+        "street": "Parklaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "park van Aalst - Betong",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93010881484492,
+            "lng": 4.040900434870094
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.054846, 50.934422], "type": "Point" },
+      "properties": {
+        "id": "4f3f30e6-6e07-402d-9595-8eb47060acab",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv BASKET",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0545241396074845, 50.937384143733595],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4f3f30e6-6e07-402d-9595-8eb47060acab",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv BASKET",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.036506, 50.936447], "type": "Point" },
+      "properties": {
+        "id": "1d75ae38-aa9e-4dc8-93c4-fed462c8e594",
+        "community": "Aalst",
+        "street": "Keizersplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "KTA Handelsschool",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93666145053468,
+            "lng": 4.036249624570762
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.036249624570762, 50.93666145053468],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1d75ae38-aa9e-4dc8-93c4-fed462c8e594",
+        "community": "Aalst",
+        "street": "Keizersplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "KTA Handelsschool",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93666145053468,
+            "lng": 4.036249624570762
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.036439, 50.940349], "type": "Point" },
+      "properties": {
+        "id": "ce23f56f-ecb1-4878-85eb-d46dd50d0476",
+        "community": "Aalst",
+        "street": "Kattestraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Winkel L&L",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93913445383574,
+            "lng": 4.038081212380672
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.038081212380672, 50.93913445383574],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "ce23f56f-ecb1-4878-85eb-d46dd50d0476",
+        "community": "Aalst",
+        "street": "Kattestraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Winkel L&L",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93913445383574,
+            "lng": 4.038081212380672
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.082071, 50.949421], "type": "Point" },
+      "properties": {
+        "id": "028aed60-2056-4c51-bbea-516d6aa0d82b",
+        "community": "Aalst",
+        "street": "Paddenvijverstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "leirekensroute",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94794756571028,
+            "lng": 4.079686440016811
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.079686440016811, 50.94794756571028],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "028aed60-2056-4c51-bbea-516d6aa0d82b",
+        "community": "Aalst",
+        "street": "Paddenvijverstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "leirekensroute",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94794756571028,
+            "lng": 4.079686440016811
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.04118, 50.9408], "type": "Point" },
+      "properties": {
+        "id": "5cff0dac-23a1-4d89-99f6-78a42a262165",
+        "community": "Aalst",
+        "street": "Vaartstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "post site(Vlaamse Overheid)",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94075572238927,
+            "lng": 4.041745562718575
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.041745562718575, 50.94075572238927],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5cff0dac-23a1-4d89-99f6-78a42a262165",
+        "community": "Aalst",
+        "street": "Vaartstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "post site(Vlaamse Overheid)",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94075572238927,
+            "lng": 4.041745562718575
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.029243, 50.965074], "type": "Point" },
+      "properties": {
+        "id": "6c2c9925-289e-4351-a9b2-570ba0bfe9e3",
+        "community": "Aalst",
+        "street": "Brulken",
+        "postalCode": 9300,
+        "houseNumber": "0",
+        "intersection": "",
+        "poi": "Plein met containers",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9651288114292, "lng": 4.029234153498398 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.029234153498398, 50.9651288114292],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6c2c9925-289e-4351-a9b2-570ba0bfe9e3",
+        "community": "Aalst",
+        "street": "Brulken",
+        "postalCode": 9300,
+        "houseNumber": "0",
+        "intersection": "",
+        "poi": "Plein met containers",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9651288114292, "lng": 4.029234153498398 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.070999, 50.944982], "type": "Point" },
+      "properties": {
+        "id": "adc69a86-682a-4210-850a-913fdc5d16c6",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Parkeerplaats langsheen de rijbaan",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.064185524813953, 50.94452147226886],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "adc69a86-682a-4210-850a-913fdc5d16c6",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Parkeerplaats langsheen de rijbaan",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [3.999646, 50.921958], "type": "Point" },
+      "properties": {
+        "id": "eefbc7f8-7600-4a26-8de0-571278b20d04",
+        "community": "Aalst",
+        "street": "Molenstraat",
+        "postalCode": 9300,
+        "houseNumber": "54-56",
+        "intersection": "",
+        "poi": ": @WERF (DE) - OPINST - AALST",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93936131420553,
+            "lng": 4.042231556352841
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.042231556352841, 50.93936131420553],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "eefbc7f8-7600-4a26-8de0-571278b20d04",
+        "community": "Aalst",
+        "street": "Molenstraat",
+        "postalCode": 9300,
+        "houseNumber": "54-56",
+        "intersection": "",
+        "poi": ": @WERF (DE) - OPINST - AALST",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93936131420553,
+            "lng": 4.042231556352841
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.054846, 50.934422], "type": "Point" },
+      "properties": {
+        "id": "0146be98-afa1-4037-b1f2-3075b95948fa",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Flora Hallen",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0545241396074845, 50.937384143733595],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "0146be98-afa1-4037-b1f2-3075b95948fa",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Flora Hallen",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.070999, 50.944982], "type": "Point" },
+      "properties": {
+        "id": "c3cbbe04-7e23-4207-b58a-87ae6373d1f2",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "naast Kledingbox",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.064185524813953, 50.94452147226886],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "c3cbbe04-7e23-4207-b58a-87ae6373d1f2",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "naast Kledingbox",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.04516, 50.934868], "type": "Point" },
+      "properties": {
+        "id": "7b6b95da-2676-470a-a286-d17b1a744806",
+        "community": "Aalst",
+        "street": "Alfred Nichelsstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Overdekte fietsenstalling",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.935085183136025,
+            "lng": 4.045888875430338
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.045888875430338, 50.935085183136025],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7b6b95da-2676-470a-a286-d17b1a744806",
+        "community": "Aalst",
+        "street": "Alfred Nichelsstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Overdekte fietsenstalling",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.935085183136025,
+            "lng": 4.045888875430338
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0436, 50.935449], "type": "Point" },
+      "properties": {
+        "id": "7736b6ac-618b-45d6-b034-4a2b9f6784c2",
+        "community": "Aalst",
+        "street": "Pontstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "AH",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93631522446565,
+            "lng": 4.042570813166216
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.042570813166216, 50.93631522446565],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7736b6ac-618b-45d6-b034-4a2b9f6784c2",
+        "community": "Aalst",
+        "street": "Pontstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "AH",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93631522446565,
+            "lng": 4.042570813166216
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.029317, 50.950647], "type": "Point" },
+      "properties": {
+        "id": "2604d069-622d-4496-9427-1c37b8b184b3",
+        "community": "Aalst",
+        "street": "Kerrebroekstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "AALST KERREBROEK - STATION - A",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95059182056681,
+            "lng": 4.026153424418809
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.026153424418809, 50.95059182056681],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2604d069-622d-4496-9427-1c37b8b184b3",
+        "community": "Aalst",
+        "street": "Kerrebroekstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "AALST KERREBROEK - STATION - A",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95059182056681,
+            "lng": 4.026153424418809
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.052585, 50.951543], "type": "Point" },
+      "properties": {
+        "id": "a3f3de2f-cf78-4db7-8ff7-7f16311695dd",
+        "community": "Aalst",
+        "street": "Dompelstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "fietsenstalling warenhuis Delhaize",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9519902038197, "lng": 4.054656146773177 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.054656146773177, 50.9519902038197],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "a3f3de2f-cf78-4db7-8ff7-7f16311695dd",
+        "community": "Aalst",
+        "street": "Dompelstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "fietsenstalling warenhuis Delhaize",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.9519902038197, "lng": 4.054656146773177 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.038153, 50.928897], "type": "Point" },
+      "properties": {
+        "id": "40fa3e43-8917-446b-9a0a-e39c44cd0145",
+        "community": "Aalst",
+        "street": "Parklaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "park",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93010881484492,
+            "lng": 4.040900434870094
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.040900434870094, 50.93010881484492],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "40fa3e43-8917-446b-9a0a-e39c44cd0145",
+        "community": "Aalst",
+        "street": "Parklaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "park",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93010881484492,
+            "lng": 4.040900434870094
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.034619, 50.938306], "type": "Point" },
+      "properties": {
+        "id": "27a9f1b1-9ca3-4d58-a29f-60d3c1866d53",
+        "community": "Aalst",
+        "street": "Nieuwstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Winkel Appels",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938558675536946,
+            "lng": 4.036668775993602
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.036668775993602, 50.938558675536946],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "27a9f1b1-9ca3-4d58-a29f-60d3c1866d53",
+        "community": "Aalst",
+        "street": "Nieuwstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Winkel Appels",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.938558675536946,
+            "lng": 4.036668775993602
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.034934, 50.943833], "type": "Point" },
+      "properties": {
+        "id": "6ed0f2f5-d358-4c62-92b6-4c7ee2fe7a1e",
+        "community": "Aalst",
+        "street": "Dendermondse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "SCHELLAERT nv",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.945061286500966,
+            "lng": 4.03453498514015
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.03453498514015, 50.945061286500966],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6ed0f2f5-d358-4c62-92b6-4c7ee2fe7a1e",
+        "community": "Aalst",
+        "street": "Dendermondse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "SCHELLAERT nv",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.945061286500966,
+            "lng": 4.03453498514015
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.066659, 50.950684], "type": "Point" },
+      "properties": {
+        "id": "fda66b27-99d9-4934-8ee4-9e97c74ecef0",
+        "community": "Aalst",
+        "street": "Zesbunderstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv ILVA afvalcontainers",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95048692821697,
+            "lng": 4.0664027877669415
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0664027877669415, 50.95048692821697],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "fda66b27-99d9-4934-8ee4-9e97c74ecef0",
+        "community": "Aalst",
+        "street": "Zesbunderstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv ILVA afvalcontainers",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95048692821697,
+            "lng": 4.0664027877669415
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.067559, 50.92078], "type": "Point" },
+      "properties": {
+        "id": "91418609-fefe-498e-b074-62c8ce5891bb",
+        "community": "Aalst",
+        "street": "Hogeweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ING bank",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.92109808235943,
+            "lng": 4.066452800287717
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.066452800287717, 50.92109808235943],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "91418609-fefe-498e-b074-62c8ce5891bb",
+        "community": "Aalst",
+        "street": "Hogeweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ING bank",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.92109808235943,
+            "lng": 4.066452800287717
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.037745, 50.940123], "type": "Point" },
+      "properties": {
+        "id": "9b53b79b-2c48-4190-8a45-66d3e9bcd3b5",
+        "community": "Aalst",
+        "street": "Peperstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "nr niet gekend (fietsenstalling)",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.940316121497816,
+            "lng": 4.038175646609233
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.038175646609233, 50.940316121497816],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9b53b79b-2c48-4190-8a45-66d3e9bcd3b5",
+        "community": "Aalst",
+        "street": "Peperstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "nr niet gekend (fietsenstalling)",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.940316121497816,
+            "lng": 4.038175646609233
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.031737, 50.924834], "type": "Point" },
+      "properties": {
+        "id": "a3d5881a-619a-454c-bfd3-ccc854acd7d8",
+        "community": "Aalst",
+        "street": "Geraardsbergsesteenweg",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ter hoogte van (vroeger) tankstation",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.91014256214237,
+            "lng": 4.028097289505582
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.028097289505582, 50.91014256214237],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "a3d5881a-619a-454c-bfd3-ccc854acd7d8",
+        "community": "Aalst",
+        "street": "Geraardsbergsesteenweg",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ter hoogte van (vroeger) tankstation",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.91014256214237,
+            "lng": 4.028097289505582
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.04884, 50.93078], "type": "Point" },
+      "properties": {
+        "id": "9df750f5-b8d4-437b-b1e4-3995e930afa5",
+        "community": "Aalst",
+        "street": "Erembodegemstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "fietsenstalling park",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.930444921843225,
+            "lng": 4.048983478799636
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.048983478799636, 50.930444921843225],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9df750f5-b8d4-437b-b1e4-3995e930afa5",
+        "community": "Aalst",
+        "street": "Erembodegemstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "fietsenstalling park",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.930444921843225,
+            "lng": 4.048983478799636
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.01849, 50.93631], "type": "Point" },
+      "properties": {
+        "id": "d343d95b-92af-4082-a414-c5fe622e21f7",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "80",
+        "intersection": "",
+        "poi": "MUG ASZ AALST - HULPDST - AALS",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.93611199494009, "lng": 4.01923943458016 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.01923943458016, 50.93611199494009],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "d343d95b-92af-4082-a414-c5fe622e21f7",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "80",
+        "intersection": "",
+        "poi": "MUG ASZ AALST - HULPDST - AALS",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.93611199494009, "lng": 4.01923943458016 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.041513, 50.945389], "type": "Point" },
+      "properties": {
+        "id": "8d7f96ca-7345-44ad-81af-a57a9cbba1d2",
+        "community": "Aalst",
+        "street": "Lazaretstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "NAAST OPENBARE VUILNISBAK",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.945459833424756,
+            "lng": 4.042871022875864
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.042871022875864, 50.945459833424756],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8d7f96ca-7345-44ad-81af-a57a9cbba1d2",
+        "community": "Aalst",
+        "street": "Lazaretstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "NAAST OPENBARE VUILNISBAK",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.945459833424756,
+            "lng": 4.042871022875864
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.036506, 50.936447], "type": "Point" },
+      "properties": {
+        "id": "a90ca2f6-eab4-4d3c-af0d-2024b33b1f76",
+        "community": "Aalst",
+        "street": "Keizersplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Doorgang Keizersplein - parking Keizershallen.",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93666145053468,
+            "lng": 4.036249624570762
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.036249624570762, 50.93666145053468],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "a90ca2f6-eab4-4d3c-af0d-2024b33b1f76",
+        "community": "Aalst",
+        "street": "Keizersplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Doorgang Keizersplein - parking Keizershallen.",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93666145053468,
+            "lng": 4.036249624570762
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.043491, 50.944105], "type": "Point" },
+      "properties": {
+        "id": "127fe79f-9f86-498f-a2e3-1b12aafd0cc9",
+        "community": "Aalst",
+        "street": "Gasthuisstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv Fifakooi",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94434937626927,
+            "lng": 4.0435747996499805
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0435747996499805, 50.94434937626927],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "127fe79f-9f86-498f-a2e3-1b12aafd0cc9",
+        "community": "Aalst",
+        "street": "Gasthuisstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "thv Fifakooi",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94434937626927,
+            "lng": 4.0435747996499805
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.054846, 50.934422], "type": "Point" },
+      "properties": {
+        "id": "8e1920c2-0c4b-4e95-95c3-e4ba51658bf2",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "parking rusthuis",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0545241396074845, 50.937384143733595],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8e1920c2-0c4b-4e95-95c3-e4ba51658bf2",
+        "community": "Aalst",
+        "street": "Albrechtlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "parking rusthuis",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.937384143733595,
+            "lng": 4.0545241396074845
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.029317, 50.950647], "type": "Point" },
+      "properties": {
+        "id": "3545bd4c-68aa-43dd-bb75-20e6e3664ad5",
+        "community": "Aalst",
+        "street": "Kerrebroekstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "voor brug spoorweg",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95059182056681,
+            "lng": 4.026153424418809
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.026153424418809, 50.95059182056681],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3545bd4c-68aa-43dd-bb75-20e6e3664ad5",
+        "community": "Aalst",
+        "street": "Kerrebroekstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "voor brug spoorweg",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.95059182056681,
+            "lng": 4.026153424418809
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    }
+  ]
+}

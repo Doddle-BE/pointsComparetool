@@ -1,7 +1,7 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-// import geoJson from "./aalst4_geojson.json";
-import geoJson from "./geojson.json";
+// import geoJson from "./geojson.json";
+import geoJson from "./poi_geojson.json";
 import "./style.css";
 import bbox from "@turf/bbox";
 
@@ -35,6 +35,10 @@ const filterGeojson = (filterFn: (feature) => boolean) => {
   return geoJson.features.filter(filterFn);
 };
 
+// SLIDER
+const slider = document.getElementById('slider');
+const sliderValue = document.getElementById('slider-value');
+
 // MAP code
 const map = new maplibregl.Map({
   container: "map",
@@ -46,6 +50,23 @@ const map = new maplibregl.Map({
 });
 
 map.on("load", () => {
+  map.addSource('wmts-source', {
+    'type': 'raster',
+    'tiles': [
+      'https://geo.api.vlaanderen.be/GRB/wmts/1.0.0/grb_bsk/default/GoogleMapsVL/{z}/{y}/{x}.png'
+    ],
+    'tileSize': 256
+  });
+
+  map.addLayer({
+    'id': 'wmts-layer',
+    'type': 'raster',
+    'source': 'wmts-source',
+    'layout': {},
+    'paint': {
+    }
+  });
+
   map.addSource("geojson", {
     type: "geojson",
     data: geoJson
@@ -89,6 +110,17 @@ map.on("load", () => {
   map.on('mouseleave', 'markers', () => {
     map.getCanvas().style.cursor = '';
     popup.remove();
+  });
+
+  slider?.addEventListener('input', (e) => {
+    map.setPaintProperty(
+      'wmts-layer',
+      'raster-opacity',
+      parseInt(e?.target?.value, 10) / 100
+    );
+
+    // Value indicator
+    sliderValue.textContent = e?.target?.value + '%';
   });
 });
 
@@ -176,7 +208,7 @@ items.className = "features";
 sidebar?.appendChild(items);
 
 const renderItemsList = (filtered) => {
-  for (let i = 0; i < filtered.length; i += 1) {
+  for (let i = 0; i < filtered.length; i += 2) {
     const feature = filtered[i];
 
     const featureDiv = document.createElement("div");
