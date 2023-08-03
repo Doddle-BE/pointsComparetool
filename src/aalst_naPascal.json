@@ -1,0 +1,973 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0370066, 50.9398391], "type": "Point" },
+      "properties": {
+        "id": "d362a76d-a4ae-457d-9c0d-052d995ecf71",
+        "community": "Aalst",
+        "street": "Passage Pieter van Aelst",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Kattestraat",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.939262214823046,
+            "lng": 4.037001285386205
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.037001285386205, 50.939262214823046],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "d362a76d-a4ae-457d-9c0d-052d995ecf71",
+        "community": "Aalst",
+        "street": "Passage Pieter van Aelst",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Kattestraat",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.939262214823046,
+            "lng": 4.037001285386205
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.032301, 50.911267], "type": "Point" },
+      "properties": {
+        "id": "50943ff6-6b3c-4e84-8bce-688a8155b524",
+        "community": "Aalst",
+        "street": "N45 Richting Brakel",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "1.7",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.910095517622814,
+            "lng": 4.0280333631701675
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0280333631701675, 50.910095517622814],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "50943ff6-6b3c-4e84-8bce-688a8155b524",
+        "community": "Aalst",
+        "street": "N45 Richting Brakel",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "1.7",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.910095517622814,
+            "lng": 4.0280333631701675
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "cf79b210-8ecd-4940-85a7-dad92b84d58d",
+        "community": "Aalst",
+        "street": "Gentse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "5",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93760323059332,
+            "lng": 4.027024944637768
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.027024944637768, 50.93760323059332],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "cf79b210-8ecd-4940-85a7-dad92b84d58d",
+        "community": "Aalst",
+        "street": "Gentse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "5",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93760323059332,
+            "lng": 4.027024944637768
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.036053, 50.923855], "type": "Point" },
+      "properties": {
+        "id": "8f983406-d022-4d5a-84bb-b2520b2c64fc",
+        "community": "Aalst",
+        "street": "Ninovesteenweg",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "2.2",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.911700832614386,
+            "lng": 4.049742894720129
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.049742894720129, 50.911700832614386],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8f983406-d022-4d5a-84bb-b2520b2c64fc",
+        "community": "Aalst",
+        "street": "Ninovesteenweg",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "2.2",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.911700832614386,
+            "lng": 4.049742894720129
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0202, 50.93686], "type": "Point" },
+      "properties": {
+        "id": "2204a3e9-6a3b-43ab-9289-1f23e6549a8f",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "117",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93681731481901,
+            "lng": 4.020044885387222
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.020044885387222, 50.93681731481901],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2204a3e9-6a3b-43ab-9289-1f23e6549a8f",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "117",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93681731481901,
+            "lng": 4.020044885387222
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.028093, 50.936529], "type": "Point" },
+      "properties": {
+        "id": "f39b8ff7-5f49-4a03-89dc-90969e0a87ee",
+        "community": "Aalst",
+        "street": "Capucienenlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Tter hoogte van Pita Zaak",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93496328271526,
+            "lng": 4.029337115436549
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.029337115436549, 50.93496328271526],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "f39b8ff7-5f49-4a03-89dc-90969e0a87ee",
+        "community": "Aalst",
+        "street": "Capucienenlaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Tter hoogte van Pita Zaak",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93496328271526,
+            "lng": 4.029337115436549
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0358884, 50.9597234], "type": "Point" },
+      "properties": {
+        "id": "396851ee-65e8-473c-b8fc-94e8cbd78cf9",
+        "community": "Aalst",
+        "street": "N41 Richting Aalst",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Bergweg",
+        "poi": "HOUT EN BOUWCENTER VAN DEN NES",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.948134631105525,
+            "lng": 4.032075727555658
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.032075727555658, 50.948134631105525],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "396851ee-65e8-473c-b8fc-94e8cbd78cf9",
+        "community": "Aalst",
+        "street": "N41 Richting Aalst",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Bergweg",
+        "poi": "HOUT EN BOUWCENTER VAN DEN NES",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.948134631105525,
+            "lng": 4.032075727555658
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.031536, 50.948348], "type": "Point" },
+      "properties": {
+        "id": "3653d4c5-60ac-4bd8-9dc9-ee444ef1094a",
+        "community": "Aalst",
+        "street": "Steenweg op Dendermonde",
+        "postalCode": 9300,
+        "houseNumber": "176",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.974324520495486,
+            "lng": 4.043278724253376
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.043278724253376, 50.974324520495486],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3653d4c5-60ac-4bd8-9dc9-ee444ef1094a",
+        "community": "Aalst",
+        "street": "Steenweg op Dendermonde",
+        "postalCode": 9300,
+        "houseNumber": "176",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.974324520495486,
+            "lng": 4.043278724253376
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.037661, 50.934724], "type": "Point" },
+      "properties": {
+        "id": "13067f82-e0e7-4861-bd49-29b90b93e9ee",
+        "community": "Aalst",
+        "street": "Geraardsbergsestraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "kruispunt Eikstraat",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93153492294729,
+            "lng": 4.036043156055188
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.036043156055188, 50.93153492294729],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13067f82-e0e7-4861-bd49-29b90b93e9ee",
+        "community": "Aalst",
+        "street": "Geraardsbergsestraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "kruispunt Eikstraat",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93153492294729,
+            "lng": 4.036043156055188
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.038933, 50.946055], "type": "Point" },
+      "properties": {
+        "id": "175877d3-8439-439b-bd50-3936a3803117",
+        "community": "Aalst",
+        "street": "Pierre Corneliskaai",
+        "postalCode": 9300,
+        "houseNumber": "99999",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.946323849604276,
+            "lng": 4.038722935805791
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.038722935805791, 50.946323849604276],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "175877d3-8439-439b-bd50-3936a3803117",
+        "community": "Aalst",
+        "street": "Pierre Corneliskaai",
+        "postalCode": 9300,
+        "houseNumber": "99999",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.946323849604276,
+            "lng": 4.038722935805791
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0423665, 50.9407172], "type": "Point" },
+      "properties": {
+        "id": "3eaa72a6-7d12-4672-80a4-24b8419396a6",
+        "community": "Aalst",
+        "street": "Dr. André Sierensstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Vaartstraat",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.94182101367915, "lng": 4.0408194569971 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0408194569971, 50.94182101367915],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3eaa72a6-7d12-4672-80a4-24b8419396a6",
+        "community": "Aalst",
+        "street": "Dr. André Sierensstraat",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "Vaartstraat",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.94182101367915, "lng": 4.0408194569971 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.023751, 50.947924], "type": "Point" },
+      "properties": {
+        "id": "7f9204eb-ea79-4b79-b62f-d48e91dde0d5",
+        "community": "Aalst",
+        "street": "Ledebaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.950045451277965,
+            "lng": 4.021758451510406
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.021758451510406, 50.950045451277965],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7f9204eb-ea79-4b79-b62f-d48e91dde0d5",
+        "community": "Aalst",
+        "street": "Ledebaan",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.950045451277965,
+            "lng": 4.021758451510406
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.0466, 50.94903], "type": "Point" },
+      "properties": {
+        "id": "742a3ba9-2a82-4ecd-a855-7e5093804d60",
+        "community": "Aalst",
+        "street": "Dendermondse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "25",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94317587035431,
+            "lng": 4.034980285633133
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.034980285633133, 50.94317587035431],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "742a3ba9-2a82-4ecd-a855-7e5093804d60",
+        "community": "Aalst",
+        "street": "Dendermondse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "25",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94317587035431,
+            "lng": 4.034980285633133
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.024056, 50.937968], "type": "Point" },
+      "properties": {
+        "id": "fae95ed1-e4a8-457e-827b-41ea7ae4c1f8",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ASZ Ziekenhuis bureel sociale dienst",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.93611199494009, "lng": 4.01923943458016 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.01923943458016, 50.93611199494009],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "fae95ed1-e4a8-457e-827b-41ea7ae4c1f8",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "ASZ Ziekenhuis bureel sociale dienst",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.93611199494009, "lng": 4.01923943458016 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.07284, 50.9625], "type": "Point" },
+      "properties": {
+        "id": "561f979f-6dea-4ffe-b3b4-ce00956148d1",
+        "community": "Aalst",
+        "street": "Broekstraat",
+        "postalCode": 9300,
+        "houseNumber": "32",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.962506814826064,
+            "lng": 4.073032085377752
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.073032085377752, 50.962506814826064],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "561f979f-6dea-4ffe-b3b4-ce00956148d1",
+        "community": "Aalst",
+        "street": "Broekstraat",
+        "postalCode": 9300,
+        "houseNumber": "32",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.962506814826064,
+            "lng": 4.073032085377752
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "3e1e0229-f1e2-43d3-9e32-6ef0633c73ce",
+        "community": "Aalst",
+        "street": "Brusselse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Colruyt parking",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93125601886805,
+            "lng": 4.059845512103512
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.059845512103512, 50.93125601886805],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3e1e0229-f1e2-43d3-9e32-6ef0633c73ce",
+        "community": "Aalst",
+        "street": "Brusselse steenweg",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "Colruyt parking",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93125601886805,
+            "lng": 4.059845512103512
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.038744, 50.942742], "type": "Point" },
+      "properties": {
+        "id": "3b9802bf-8d13-4947-b125-07b91a6eb357",
+        "community": "Aalst",
+        "street": "Statieplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "CAFE Kelly's",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.942578564520566,
+            "lng": 4.0390468172206715
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0390468172206715, 50.942578564520566],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3b9802bf-8d13-4947-b125-07b91a6eb357",
+        "community": "Aalst",
+        "street": "Statieplein",
+        "postalCode": 9300,
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "CAFE Kelly's",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.942578564520566,
+            "lng": 4.0390468172206715
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.03097, 50.93339], "type": "Point" },
+      "properties": {
+        "id": "947eba2d-769e-481a-897c-0fa9a4f94b4f",
+        "community": "Aalst",
+        "street": "Gustaaf Papestraat",
+        "postalCode": 9300,
+        "houseNumber": "88",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93338774871173,
+            "lng": 4.0309657910571355
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0309657910571355, 50.93338774871173],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "947eba2d-769e-481a-897c-0fa9a4f94b4f",
+        "community": "Aalst",
+        "street": "Gustaaf Papestraat",
+        "postalCode": 9300,
+        "houseNumber": "88",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93338774871173,
+            "lng": 4.0309657910571355
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.046025, 50.942358], "type": "Point" },
+      "properties": {
+        "id": "a25b4524-e05e-441b-9ed6-f178e29f68f5",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "9999",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.064185524813953, 50.94452147226886],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "a25b4524-e05e-441b-9ed6-f178e29f68f5",
+        "community": "Aalst",
+        "street": "Moorselbaan",
+        "postalCode": 9300,
+        "houseNumber": "9999",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.94452147226886,
+            "lng": 4.064185524813953
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "49e50a84-7f8e-416a-b829-0d4887d42367",
+        "community": "Aalst",
+        "street": "N41 Richting Aalst",
+        "postalCode": 9300,
+        "houseNumber": "0",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.948134631105525,
+            "lng": 4.032075727555658
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.032075727555658, 50.948134631105525],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "49e50a84-7f8e-416a-b829-0d4887d42367",
+        "community": "Aalst",
+        "street": "N41 Richting Aalst",
+        "postalCode": 9300,
+        "houseNumber": "0",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.948134631105525,
+            "lng": 4.032075727555658
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2032 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.42025, 50.84875], "type": "Point" },
+      "properties": {
+        "id": "bb377ac8-16b6-4b79-bb07-a2039239e236",
+        "code": "Avenue de Mai-946056-94-1200-Avenue Edouard Speeckaert-946013--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Mai",
+        "postalCode": "1200",
+        "houseNumber": "94",
+        "intersection": "Avenue Edouard Speeckaert",
+        "poi": "",
+        "hmPost": "946013",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84872008325502,
+            "lng": 4.419850605664528
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue de Mai 94&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.419850605664528, 50.84872008325502],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "bb377ac8-16b6-4b79-bb07-a2039239e236",
+        "code": "Avenue de Mai-946056-94-1200-Avenue Edouard Speeckaert-946013--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Mai",
+        "postalCode": "1200",
+        "houseNumber": "94",
+        "intersection": "Avenue Edouard Speeckaert",
+        "poi": "",
+        "hmPost": "946013",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84872008325502,
+            "lng": 4.419850605664528
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.382862, 50.8331], "type": "Point" },
+      "properties": {
+        "id": "feaba95f-4cad-42c4-bd0f-998ac31ff8e2",
+        "code": "RUE DE THEUX=DE THEUXSTRAAT--48-1040----",
+        "community": "Etterbeek",
+        "street": "RUE DE THEUX=DE THEUXSTRAAT",
+        "postalCode": "1040",
+        "houseNumber": "48",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=RUE DE THEUX - DE THEUXSTRAAT 48&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "feaba95f-4cad-42c4-bd0f-998ac31ff8e2",
+        "code": "RUE DE THEUX=DE THEUXSTRAAT--48-1040----",
+        "community": "Etterbeek",
+        "street": "RUE DE THEUX=DE THEUXSTRAAT",
+        "postalCode": "1040",
+        "houseNumber": "48",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.443098, 50.831091], "type": "Point" },
+      "properties": {
+        "id": "75b3ba4c-4334-4333-8fda-7210d5979837",
+        "code": "---1150----RAME METRO MONTGOMERY",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "75b3ba4c-4334-4333-8fda-7210d5979837",
+        "code": "---1150----RAME METRO MONTGOMERY",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.43543, 50.85616], "type": "Point" },
+      "properties": {
+        "id": "d6117b17-708b-42e9-8db5-75b255853b65",
+        "code": "Rue d''Aragon-860782-6-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Rue d''Aragon",
+        "postalCode": "1200",
+        "houseNumber": "6",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.85603327167404,
+            "lng": 4.435565144177415
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue d''Aragon 6&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.435565144177415, 50.85603327167404],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "d6117b17-708b-42e9-8db5-75b255853b65",
+        "code": "Rue d''Aragon-860782-6-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Rue d''Aragon",
+        "postalCode": "1200",
+        "houseNumber": "6",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.85603327167404,
+            "lng": 4.435565144177415
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.471316, 50.827865], "type": "Point" },
+      "properties": {
+        "id": "82bbbe96-bc5c-4706-ab3b-91cda1552dd7",
+        "code": "Route Gouvernementale-945622--1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Route Gouvernementale",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8347497572997, "lng": 4.46635525570988 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Route Gouvernementale &postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.46635525570988, 50.8347497572997],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "82bbbe96-bc5c-4706-ab3b-91cda1552dd7",
+        "code": "Route Gouvernementale-945622--1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Route Gouvernementale",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.8347497572997, "lng": 4.46635525570988 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.38728, 50.83398], "type": "Point" },
+      "properties": {
+        "id": "804a2d22-54eb-4ba3-a071-4a291124a3f2",
+        "code": "Rue Fétis-948651-42-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Fétis",
+        "postalCode": "1040",
+        "houseNumber": "42",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83387405463135,
+            "lng": 4.387475293791364
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Fétis 42&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.387475293791364, 50.83387405463135],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "804a2d22-54eb-4ba3-a071-4a291124a3f2",
+        "code": "Rue Fétis-948651-42-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Fétis",
+        "postalCode": "1040",
+        "houseNumber": "42",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83387405463135,
+            "lng": 4.387475293791364
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.381556, 50.837316], "type": "Point" },
+      "properties": {
+        "id": "bec46f83-20f3-4199-a472-efbc8bfaf7e9",
+        "code": "Place Jourdan-948734-180-1040----",
+        "community": "Etterbeek",
+        "street": "Place Jourdan",
+        "postalCode": "1040",
+        "houseNumber": "180",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.836658195954904,
+            "lng": 4.381621965654003
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Place Jourdan 180&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.381621965654003, 50.836658195954904],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "bec46f83-20f3-4199-a472-efbc8bfaf7e9",
+        "code": "Place Jourdan-948734-180-1040----",
+        "community": "Etterbeek",
+        "street": "Place Jourdan",
+        "postalCode": "1040",
+        "houseNumber": "180",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.836658195954904,
+            "lng": 4.381621965654003
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.41043, 50.83406], "type": "Point" },
+      "properties": {
+        "id": "fdea253b-d3dd-4bcd-b28d-0e1881307b81",
+        "code": "Rue Maurice Liétart-945568-30-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Maurice Liétart",
+        "postalCode": "1150",
+        "houseNumber": "30",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83420388331136,
+            "lng": 4.410301705663326
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Maurice Liétart 30&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.410301705663326, 50.83420388331136],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "fdea253b-d3dd-4bcd-b28d-0e1881307b81",
+        "code": "Rue Maurice Liétart-945568-30-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Maurice Liétart",
+        "postalCode": "1150",
+        "houseNumber": "30",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83420388331136,
+            "lng": 4.410301705663326
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.43131, 50.85442], "type": "Point" },
+      "properties": {
+        "id": "2952c477-3dd3-4ab0-a8d5-71ae72723bb1",
+        "code": "Avenue du Yorkshire-846188-19-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue du Yorkshire",
+        "postalCode": "1200",
+        "houseNumber": "19",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.854723643296786,
+            "lng": 4.430348543360223
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue du Yorkshire 19&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.430348543360223, 50.854723643296786],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2952c477-3dd3-4ab0-a8d5-71ae72723bb1",
+        "code": "Avenue du Yorkshire-846188-19-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue du Yorkshire",
+        "postalCode": "1200",
+        "houseNumber": "19",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.854723643296786,
+            "lng": 4.430348543360223
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.39644, 50.83432], "type": "Point" },
+      "properties": {
+        "id": "8173b468-d9a0-497f-8ca6-e12c6f4e3843",
+        "code": "Rue Léon Scampart-948634-1-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Léon Scampart",
+        "postalCode": "1040",
+        "houseNumber": "1",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83419968331096, "lng": 4.39617650566831 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Léon Scampart 1&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.39617650566831, 50.83419968331096],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8173b468-d9a0-497f-8ca6-e12c6f4e3843",
+        "code": "Rue Léon Scampart-948634-1-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Léon Scampart",
+        "postalCode": "1040",
+        "houseNumber": "1",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83419968331096, "lng": 4.39617650566831 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "0758be7d-97b4-4dbf-ac30-e5ff1ea5cdd1",
+        "code": "Rue Jean-Baptiste Dumoulin-945581-45-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Jean",
+        "postalCode": "45",
+        "houseNumber": "945581",
+        "intersection": "1150",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.823388851258024,
+            "lng": 4.463276262902332
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Jean 945581&postalcode=45"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.463276262902332, 50.823388851258024],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "0758be7d-97b4-4dbf-ac30-e5ff1ea5cdd1",
+        "code": "Rue Jean-Baptiste Dumoulin-945581-45-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Jean",
+        "postalCode": "45",
+        "houseNumber": "945581",
+        "intersection": "1150",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.823388851258024,
+            "lng": 4.463276262902332
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.406175, 50.835113], "type": "Point" },
+      "properties": {
+        "id": "678d637b-07ad-4669-9783-3cb3a872b821",
+        "code": "Boulevard Saint-Michel-948753-56-1040----",
+        "community": "Etterbeek",
+        "street": "Boulevard Saint",
+        "postalCode": "56",
+        "houseNumber": "948753",
+        "intersection": "1040",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83280151627604, "lng": 4.40578003416286 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/?text=Boulevard%20Saint%20%20948753%20%20Etterbeek"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.40578003416286, 50.83280151627604],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "678d637b-07ad-4669-9783-3cb3a872b821",
+        "code": "Boulevard Saint-Michel-948753-56-1040----",
+        "community": "Etterbeek",
+        "street": "Boulevard Saint",
+        "postalCode": "56",
+        "houseNumber": "948753",
+        "intersection": "1040",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83280151627604, "lng": 4.40578003416286 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.388615, 50.8296], "type": "Point" },
+      "properties": {
+        "id": "7506e300-5eed-4f34-9a1a-749034504fba",
+        "code": "Rue Nothomb-948626-72-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Nothomb",
+        "postalCode": "1040",
+        "houseNumber": "72",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.82948671029867, "lng": 4.38844974282127 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Nothomb 72&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.38844974282127, 50.82948671029867],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7506e300-5eed-4f34-9a1a-749034504fba",
+        "code": "Rue Nothomb-948626-72-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Nothomb",
+        "postalCode": "1040",
+        "houseNumber": "72",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.82948671029867, "lng": 4.38844974282127 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.380789, 50.838914], "type": "Point" },
+      "properties": {
+        "id": "2205cc4a-d56a-4133-bed4-1f1c21078eae",
+        "code": "Chaussée Saint-Pierre-948749-393-1040----",
+        "community": "Etterbeek",
+        "street": "Chaussée Saint",
+        "postalCode": "393",
+        "houseNumber": "948749",
+        "intersection": "1040",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83698931179052,
+            "lng": 4.3989276378167075
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/?text=Chauss%C3%A9e%20Saint%20%20948749%20%20Etterbeek"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.3989276378167075, 50.83698931179052],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2205cc4a-d56a-4133-bed4-1f1c21078eae",
+        "code": "Chaussée Saint-Pierre-948749-393-1040----",
+        "community": "Etterbeek",
+        "street": "Chaussée Saint",
+        "postalCode": "393",
+        "houseNumber": "948749",
+        "intersection": "1040",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83698931179052,
+            "lng": 4.3989276378167075
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431544, 50.847892], "type": "Point" },
+      "properties": {
+        "id": "30fa28f2-96db-4cd0-a968-fb680f30368b",
+        "code": "Avenue de Broqueville-946077-130A-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Broqueville",
+        "postalCode": "1200",
+        "houseNumber": "130A",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84105192916675,
+            "lng": 4.415209209217612
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue de Broqueville 130A&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.415209209217612, 50.84105192916675],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "30fa28f2-96db-4cd0-a968-fb680f30368b",
+        "code": "Avenue de Broqueville-946077-130A-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Broqueville",
+        "postalCode": "1200",
+        "houseNumber": "130A",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84105192916675,
+            "lng": 4.415209209217612
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.441611, 50.846945], "type": "Point" },
+      "properties": {
+        "id": "8088f9fc-ae96-4531-b05a-4141b2be4847",
+        "code": "Avenue Emile Vandervelde-946012--1200-Chemin du Vellemolen-945966--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue Emile Vandervelde",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Chemin du Vellemolen",
+        "poi": "",
+        "hmPost": "945966",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84718338326164,
+            "lng": 4.440748905656672
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue Emile Vandervelde &postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.440748905656672, 50.84718338326164],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8088f9fc-ae96-4531-b05a-4141b2be4847",
+        "code": "Avenue Emile Vandervelde-946012--1200-Chemin du Vellemolen-945966--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue Emile Vandervelde",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Chemin du Vellemolen",
+        "poi": "",
+        "hmPost": "945966",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84718338326164,
+            "lng": 4.440748905656672
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.401329, 50.840944], "type": "Point" },
+      "properties": {
+        "id": "ba09ebea-0c39-4559-943e-3938be9d5303",
+        "code": "Rue de Linthout-948692--1040----Clinique Saint-Michel",
+        "community": "Etterbeek",
+        "street": "Rue de Linthout",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84277049743983,
+            "lng": 4.400784651253513
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue de Linthout &postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.400784651253513, 50.84277049743983],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "ba09ebea-0c39-4559-943e-3938be9d5303",
+        "code": "Rue de Linthout-948692--1040----Clinique Saint-Michel",
+        "community": "Etterbeek",
+        "street": "Rue de Linthout",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84277049743983,
+            "lng": 4.400784651253513
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.40048, 50.83093], "type": "Point" },
+      "properties": {
+        "id": "f60edca3-23a0-4217-bcf8-ef7aeb07ea1e",
+        "code": "Rue de Tervaete-948688-34-1040----",
+        "community": "Etterbeek",
+        "street": "Rue de Tervaete",
+        "postalCode": "1040",
+        "houseNumber": "34",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83091739265262,
+            "lng": 4.400174116153109
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue de Tervaete 34&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.400174116153109, 50.83091739265262],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "f60edca3-23a0-4217-bcf8-ef7aeb07ea1e",
+        "code": "Rue de Tervaete-948688-34-1040----",
+        "community": "Etterbeek",
+        "street": "Rue de Tervaete",
+        "postalCode": "1040",
+        "houseNumber": "34",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83091739265262,
+            "lng": 4.400174116153109
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.44174, 50.85613], "type": "Point" },
+      "properties": {
+        "id": "dfb32350-c679-4550-87ac-2ceedb3a6963",
+        "code": "rue Théodore De Cuyper-945845-266-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "rue Théodore De Cuyper",
+        "postalCode": "1200",
+        "houseNumber": "266",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.856222950164174,
+            "lng": 4.441532938295293
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=rue Théodore De Cuyper 266&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.441532938295293, 50.856222950164174],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "dfb32350-c679-4550-87ac-2ceedb3a6963",
+        "code": "rue Théodore De Cuyper-945845-266-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "rue Théodore De Cuyper",
+        "postalCode": "1200",
+        "houseNumber": "266",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.856222950164174,
+            "lng": 4.441532938295293
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.384701, 50.830478], "type": "Point" },
+      "properties": {
+        "id": "b4a057c7-1665-4114-9751-5851b1ca57a9",
+        "code": "Rue Général Capiaumont-948648-8-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Général Capiaumont",
+        "postalCode": "1040",
+        "houseNumber": "8",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83260290260814,
+            "lng": 4.3827931660368336
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Général Capiaumont 8&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.3827931660368336, 50.83260290260814],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "b4a057c7-1665-4114-9751-5851b1ca57a9",
+        "code": "Rue Général Capiaumont-948648-8-1040----",
+        "community": "Etterbeek",
+        "street": "Rue Général Capiaumont",
+        "postalCode": "1040",
+        "houseNumber": "8",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83260290260814,
+            "lng": 4.3827931660368336
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.39118, 50.83825], "type": "Point" },
+      "properties": {
+        "id": "7311573f-8e2a-417e-9c79-73d7523d91d6",
+        "code": "Avenue des Nerviens-948775-111-1040----",
+        "community": "Etterbeek",
+        "street": "Avenue des Nerviens",
+        "postalCode": "1040",
+        "houseNumber": "111",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.838258183295025,
+            "lng": 4.391650705671182
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue des Nerviens 111&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.391650705671182, 50.838258183295025],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7311573f-8e2a-417e-9c79-73d7523d91d6",
+        "code": "Avenue des Nerviens-948775-111-1040----",
+        "community": "Etterbeek",
+        "street": "Avenue des Nerviens",
+        "postalCode": "1040",
+        "houseNumber": "111",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.838258183295025,
+            "lng": 4.391650705671182
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.41503, 50.844429], "type": "Point" },
+      "properties": {
+        "id": "528f84f2-3680-4816-8c37-3409b6c8dda6",
+        "code": "Avenue Georges Henri-946008--1200-Rue Montagne des Cerisiers-945855--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue Georges Henri",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Rue Montagne des Cerisiers",
+        "poi": "",
+        "hmPost": "945855",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.843130534031225,
+            "lng": 4.409423774124757
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue Georges Henri &postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.409423774124757, 50.843130534031225],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "528f84f2-3680-4816-8c37-3409b6c8dda6",
+        "code": "Avenue Georges Henri-946008--1200-Rue Montagne des Cerisiers-945855--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue Georges Henri",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Rue Montagne des Cerisiers",
+        "poi": "",
+        "hmPost": "945855",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.843130534031225,
+            "lng": 4.409423774124757
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.40627, 50.82787], "type": "Point" },
+      "properties": {
+        "id": "d0b38de6-7443-4150-9832-61e37b345863",
+        "code": "Avenue des Volontaires-948774--1040----Station de métro Pétillon",
+        "community": "Etterbeek",
+        "street": "Avenue des Volontaires",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82756883771772,
+            "lng": 4.405623779026354
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue des Volontaires &postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.405623779026354, 50.82756883771772],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "d0b38de6-7443-4150-9832-61e37b345863",
+        "code": "Avenue des Volontaires-948774--1040----Station de métro Pétillon",
+        "community": "Etterbeek",
+        "street": "Avenue des Volontaires",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82756883771772,
+            "lng": 4.405623779026354
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "b5e17dfc-0652-4aca-a4f7-bd766498db19",
+        "code": "Clos du Manoir-945663-22-23-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Clos du Manoir",
+        "postalCode": "23",
+        "houseNumber": "22",
+        "intersection": "1150",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.829999830824484,
+            "lng": 4.452723648099091
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Clos du Manoir 22&postalcode=23"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.452723648099091, 50.829999830824484],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "b5e17dfc-0652-4aca-a4f7-bd766498db19",
+        "code": "Clos du Manoir-945663-22-23-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Clos du Manoir",
+        "postalCode": "23",
+        "houseNumber": "22",
+        "intersection": "1150",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.829999830824484,
+            "lng": 4.452723648099091
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431699, 50.837803], "type": "Point" },
+      "properties": {
+        "id": "9663e61b-2e45-41ab-8b79-e1823c675bc2",
+        "code": "Rue Félix Poels-945593-4-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Félix Poels",
+        "postalCode": "1150",
+        "houseNumber": "4",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.837935183297446,
+            "lng": 4.431910505656875
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Félix Poels 4&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.431910505656875, 50.837935183297446],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9663e61b-2e45-41ab-8b79-e1823c675bc2",
+        "code": "Rue Félix Poels-945593-4-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Félix Poels",
+        "postalCode": "1150",
+        "houseNumber": "4",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.837935183297446,
+            "lng": 4.431910505656875
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.43203, 50.84962], "type": "Point" },
+      "properties": {
+        "id": "8c90de7f-4be7-4580-98ec-962114ce5928",
+        "code": "rue Théodore De Cuyper-945845-22-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "rue Théodore De Cuyper",
+        "postalCode": "1200",
+        "houseNumber": "22",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.849600642669266,
+            "lng": 4.431816066083734
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=rue Théodore De Cuyper 22&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.431816066083734, 50.849600642669266],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8c90de7f-4be7-4580-98ec-962114ce5928",
+        "code": "rue Théodore De Cuyper-945845-22-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "rue Théodore De Cuyper",
+        "postalCode": "1200",
+        "houseNumber": "22",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.849600642669266,
+            "lng": 4.431816066083734
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.400935, 50.840603], "type": "Point" },
+      "properties": {
+        "id": "eec079a6-8aa8-4069-969b-e38ca25c088a",
+        "code": "Rue des Tongres-948666-92-1040----",
+        "community": "Etterbeek",
+        "street": "Rue des Tongres",
+        "postalCode": "1040",
+        "houseNumber": "92",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83995978011537, "lng": 4.40016371644961 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue des Tongres 92&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.40016371644961, 50.83995978011537],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "eec079a6-8aa8-4069-969b-e38ca25c088a",
+        "code": "Rue des Tongres-948666-92-1040----",
+        "community": "Etterbeek",
+        "street": "Rue des Tongres",
+        "postalCode": "1040",
+        "houseNumber": "92",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.83995978011537, "lng": 4.40016371644961 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.4127, 50.82514], "type": "Point" },
+      "properties": {
+        "id": "cabd51b4-5084-4f4f-b64f-06667687f9e4",
+        "code": "Avenue des Eglantines-945777-100-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Avenue des Eglantines",
+        "postalCode": "1150",
+        "houseNumber": "100",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82513342413562,
+            "lng": 4.412417963008524
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue des Eglantines 100&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.412417963008524, 50.82513342413562],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "cabd51b4-5084-4f4f-b64f-06667687f9e4",
+        "code": "Avenue des Eglantines-945777-100-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Avenue des Eglantines",
+        "postalCode": "1150",
+        "houseNumber": "100",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82513342413562,
+            "lng": 4.412417963008524
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "c7fc004a-3c6a-4ba6-9e6d-9a76fd8c5d3e",
+        "code": "Boulevard Général Jacques-948755--1040-Avenue de la Force Aérienne-948781--",
+        "community": "Etterbeek",
+        "street": "Boulevard Général Jacques",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "Avenue de la Force Aérienne",
+        "poi": "",
+        "hmPost": "948781",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82472736715258,
+            "lng": 4.3937500258727145
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Boulevard Général Jacques &postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.3937500258727145, 50.82472736715258],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "c7fc004a-3c6a-4ba6-9e6d-9a76fd8c5d3e",
+        "code": "Boulevard Général Jacques-948755--1040-Avenue de la Force Aérienne-948781--",
+        "community": "Etterbeek",
+        "street": "Boulevard Général Jacques",
+        "postalCode": "1040",
+        "houseNumber": "",
+        "intersection": "Avenue de la Force Aérienne",
+        "poi": "",
+        "hmPost": "948781",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.82472736715258,
+            "lng": 4.3937500258727145
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431544, 50.847892], "type": "Point" },
+      "properties": {
+        "id": "9f3c8321-6744-4015-a351-8f443041327b",
+        "code": "Clos A. Marinus-945965-20-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Clos A. Marinus",
+        "postalCode": "1200",
+        "houseNumber": "20",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84829448325689,
+            "lng": 4.427298105661769
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Clos A. Marinus 20&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.427298105661769, 50.84829448325689],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9f3c8321-6744-4015-a351-8f443041327b",
+        "code": "Clos A. Marinus-945965-20-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Clos A. Marinus",
+        "postalCode": "1200",
+        "houseNumber": "20",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84829448325689,
+            "lng": 4.427298105661769
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.460979, 50.849234], "type": "Point" },
+      "properties": {
+        "id": "fee6502e-f7cd-4473-abcf-f898e515345b",
+        "code": "Avenue de Kraainem-946073--1200----ARRET DE BUS KRAAINEM",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Kraainem",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84863855570338, "lng": 4.45942883367315 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue de Kraainem &postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.45942883367315, 50.84863855570338],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "fee6502e-f7cd-4473-abcf-f898e515345b",
+        "code": "Avenue de Kraainem-946073--1200----ARRET DE BUS KRAAINEM",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue de Kraainem",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 50.84863855570338, "lng": 4.45942883367315 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431544, 50.847892], "type": "Point" },
+      "properties": {
+        "id": "087e39bb-ef91-4331-b78e-5e628814bd4f",
+        "code": "Avenue du Val d''Or-946017-119-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue du Val d''Or",
+        "postalCode": "1200",
+        "houseNumber": "119",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83948385549792,
+            "lng": 4.423707603576634
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue du Val d''Or 119&postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.423707603576634, 50.83948385549792],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "087e39bb-ef91-4331-b78e-5e628814bd4f",
+        "code": "Avenue du Val d''Or-946017-119-1200----",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue du Val d''Or",
+        "postalCode": "1200",
+        "houseNumber": "119",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83948385549792,
+            "lng": 4.423707603576634
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431544, 50.847892], "type": "Point" },
+      "properties": {
+        "id": "080c6480-58cf-49c0-b4a7-6bafd9d63cf7",
+        "code": "Avenue J.F. Debecker-945996--1200-Avenue de la Chapelle-946067--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue J.F. Debecker",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Avenue de la Chapelle",
+        "poi": "",
+        "hmPost": "946067",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84485888327066,
+            "lng": 4.439529705656368
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue J.F. Debecker &postalcode=1200"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.439529705656368, 50.84485888327066],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "080c6480-58cf-49c0-b4a7-6bafd9d63cf7",
+        "code": "Avenue J.F. Debecker-945996--1200-Avenue de la Chapelle-946067--",
+        "community": "Woluwe-Saint-Lambert",
+        "street": "Avenue J.F. Debecker",
+        "postalCode": "1200",
+        "houseNumber": "",
+        "intersection": "Avenue de la Chapelle",
+        "poi": "",
+        "hmPost": "946067",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84485888327066,
+            "lng": 4.439529705656368
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.431666, 50.832942], "type": "Point" },
+      "properties": {
+        "id": "769ec1d7-5778-426d-ae85-41fe06be79d2",
+        "code": "Boulevard de la Woluwe-945690--1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Boulevard de la Woluwe",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83390220526398,
+            "lng": 4.433235023547653
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Boulevard de la Woluwe &postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.433235023547653, 50.83390220526398],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "769ec1d7-5778-426d-ae85-41fe06be79d2",
+        "code": "Boulevard de la Woluwe-945690--1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Boulevard de la Woluwe",
+        "postalCode": "1150",
+        "houseNumber": "",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83390220526398,
+            "lng": 4.433235023547653
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.46668, 50.84], "type": "Point" },
+      "properties": {
+        "id": "1ad9e228-5ea9-4868-86bd-c1ad8bf12df0",
+        "code": "Rue François Vander Elst-945590-3-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue François Vander Elst",
+        "postalCode": "1150",
+        "houseNumber": "3",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83921388329352,
+            "lng": 4.467538905644694
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue François Vander Elst 3&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.467538905644694, 50.83921388329352],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1ad9e228-5ea9-4868-86bd-c1ad8bf12df0",
+        "code": "Rue François Vander Elst-945590-3-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue François Vander Elst",
+        "postalCode": "1150",
+        "houseNumber": "3",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.83921388329352,
+            "lng": 4.467538905644694
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.45947, 50.84078], "type": "Point" },
+      "properties": {
+        "id": "2cbec84c-97d1-4aa4-b90d-488d99249535",
+        "code": "Rue Edouard Gersis-945596-0019-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Edouard Gersis",
+        "postalCode": "1150",
+        "houseNumber": "0019",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84087902350526,
+            "lng": 4.460080843645741
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Rue Edouard Gersis 19&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.460080843645741, 50.84087902350526],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2cbec84c-97d1-4aa4-b90d-488d99249535",
+        "code": "Rue Edouard Gersis-945596-0019-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Rue Edouard Gersis",
+        "postalCode": "1150",
+        "houseNumber": "0019",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.84087902350526,
+            "lng": 4.460080843645741
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.443098, 50.831091], "type": "Point" },
+      "properties": {
+        "id": "64827ea5-cb0c-4cb1-aa1b-befa1810bd6d",
+        "code": "Avenue de l''Oiseau Bleu-945800-48 A-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Avenue de l''Oiseau Bleu",
+        "postalCode": "1150",
+        "houseNumber": "48 A",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.828674883332965,
+            "lng": 4.412165705660929
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=Avenue de l''Oiseau Bleu 48A&postalcode=1150"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.412165705660929, 50.828674883332965],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "64827ea5-cb0c-4cb1-aa1b-befa1810bd6d",
+        "code": "Avenue de l''Oiseau Bleu-945800-48 A-1150----",
+        "community": "Woluwe-Saint-Pierre",
+        "street": "Avenue de l''Oiseau Bleu",
+        "postalCode": "1150",
+        "houseNumber": "48 A",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.828674883332965,
+            "lng": 4.412165705660929
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [4.38201, 50.83809], "type": "Point" },
+      "properties": {
+        "id": "3d95a134-7fac-4414-a3f5-4d8359d7dcbc",
+        "code": "RUE FROISSART-L00040-17-1040----",
+        "community": "Etterbeek",
+        "street": "RUE FROISSART",
+        "postalCode": "1040",
+        "houseNumber": "17",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "red",
+        "metaData": {
+          "searchType": "pelias",
+          "peliasUrl": "https://pelias-api.ngrok.dev/v1/search/structured?&focus.point.lat=50.802398&focus.point.lon=4.34067&address=RUE FROISSART 17&postalcode=1040"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [0, 0], "type": "Point" },
+      "properties": {
+        "id": "3d95a134-7fac-4414-a3f5-4d8359d7dcbc",
+        "code": "RUE FROISSART-L00040-17-1040----",
+        "community": "Etterbeek",
+        "street": "RUE FROISSART",
+        "postalCode": "1040",
+        "houseNumber": "17",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": { "lat": 0, "lng": 0 },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    }
+  ]
+}

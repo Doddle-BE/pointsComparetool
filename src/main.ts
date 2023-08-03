@@ -1,7 +1,7 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 // import geoJson from "./geojson.json";
-import geoJson from "./poi_geojson.json";
+import geoJson from "./aalst_naPascalTwo.json";
 import "./style.css";
 import bbox from "@turf/bbox";
 
@@ -215,10 +215,10 @@ const renderItemsList = (filtered) => {
     featureDiv.dataset.id = feature.properties.id;
     featureDiv.innerHTML = `
       <div>
-        ${feature.properties.poi ? "<h4><span>📍 </span>" + feature.properties.poi + "</h4>" : ""}
         <h4>${feature.properties.street} ${feature.properties.houseNumber ? feature.properties.houseNumber : ""}</h4>
         <h4>${feature.properties.postalCode ? feature.properties.postalCode : ""} ${feature.properties.community ? feature.properties.community : ""}</h4>
         ${feature.properties.intersection ? "<h4><span id='intersection'>⏧&nbsp;</span>" + feature.properties.intersection + "</h4>" : ""}
+        ${feature.properties.metaData.peliasUrl ? "<a href='https://pelias.github.io/compare/#" + feature.properties.metaData.peliasUrl.match(/\/v1.*/) + "' target='_blank'>Pelias</a>" : ""}
       </div>
       <div id="goodOrFault">
         <button id="good">✅</button>

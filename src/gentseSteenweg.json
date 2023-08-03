@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [null, null], "type": "Point" },
+      "properties": {
+        "id": "5db72ba3-ef99-46c3-80f5-328e509854eb",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "68",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93687644192379,
+            "lng": 4.0206034490193945
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.0206034490193945, 50.93687644192379],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5db72ba3-ef99-46c3-80f5-328e509854eb",
+        "community": "Aalst",
+        "street": "Merestraat",
+        "postalCode": 9320,
+        "houseNumber": "68",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.93687644192379,
+            "lng": 4.0206034490193945
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [null, null], "type": "Point" },
+      "properties": {
+        "id": "ca844af0-7cdc-4814-b1ed-6eae5bd55c80",
+        "community": "Aalst",
+        "street": "Berkenlaan",
+        "postalCode": 9320,
+        "houseNumber": "23",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.986570848635736,
+            "lng": 4.058682554130305
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [4.058682554130305, 50.986570848635736],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "ca844af0-7cdc-4814-b1ed-6eae5bd55c80",
+        "community": "Aalst",
+        "street": "Berkenlaan",
+        "postalCode": 9320,
+        "houseNumber": "23",
+        "intersection": "",
+        "poi": "",
+        "hmPost": "",
+        "result": {
+          "succes": true,
+          "position_wgs": {
+            "lat": 50.986570848635736,
+            "lng": 4.058682554130305
+          },
+          "type": "addressmatching"
+        },
+        "marker-color": "green"
+      }
+    }
+  ]
+}
