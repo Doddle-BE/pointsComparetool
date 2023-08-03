@@ -239,6 +239,10 @@ const renderItemsList = (filtered) => {
 
       document.querySelector(".featureDiv-active")?.classList.remove("featureDiv-active");
       featureDiv.classList.add("featureDiv-active");
+
+      // log features to console
+      console.log("NEW Result (Red on map): ", filtered?.[0]);
+      console.log("OLD Result (Green on map): ", filtered?.[1]);
     });
 
     const goodButton = featureDiv.querySelector("#good");
