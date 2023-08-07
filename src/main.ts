@@ -1,7 +1,7 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 // import geoJson from "./geojson.json";
-import geoJson from "./aalst_naPascalTwo.json";
+import data from "./aalst_naPascalTwo.json";
 import "./style.css";
 import bbox from "@turf/bbox";
 
@@ -32,8 +32,17 @@ const readFromLocalStorage = (goodOrFault = "all") => {
   return geojsonObject;
 };
 const filterGeojson = (filterFn: (feature) => boolean) => {
-  return geoJson.features.filter(filterFn);
+  return data.features.filter(filterFn);
 };
+const setSearchParams = ({ key, value }: { key: string; value: string }) => {
+  const searchParams = new URLSearchParams(window.location.search);
+  searchParams.set(key, value);
+  window.history.replaceState({}, "", `${location.pathname}?${searchParams}`);
+}
+const getSearchParams = (key: string) => {
+  const searchParams = new URLSearchParams(window.location.search);
+  return searchParams.get(key);
+}
 
 // SLIDER
 const slider = document.getElementById('slider');
@@ -69,7 +78,7 @@ map.on("load", () => {
 
   map.addSource("geojson", {
     type: "geojson",
-    data: geoJson
+    data: data
   });
 
   map.addLayer({
@@ -119,7 +128,6 @@ map.on("load", () => {
       parseInt(e?.target?.value, 10) / 100
     );
 
-    // Value indicator
     sliderValue.textContent = e?.target?.value + '%';
   });
 });
@@ -133,9 +141,35 @@ const saveFileButton = document.createElement("button");
 saveFileButton.id = "btnSaveFile";
 saveFileButton.innerText = "💾";
 saveFileButton.addEventListener("click", () => {
-  const geojsonObject = localStorage.getItem("geojsonObject") || "{}";
+  const geojsonObjectString = localStorage.getItem("geojsonObject") || "{}";
+  const geojsonObject = JSON.parse(geojsonObjectString);
 
-  const blob = new Blob([geojsonObject], { type: "application/json" });
+  const geojsonObjectArray = Object.keys(geojsonObject).map((key) => {
+    return {
+      id: key,
+      value: geojsonObject[key]
+    }
+  });
+
+  const geoFeatures = data.features.map((feature) => {
+    const foundItem = geojsonObjectArray.find((item) => item.id === feature.properties.id);
+    if (foundItem) {
+      feature.properties = {
+        ...feature.properties,
+        correct: foundItem.value === "good"
+      }
+    }
+    return feature;
+  });
+  const filter = getSearchParams("filter");
+  const geoFeaturesWithGoodFaultFilter = filter === "all" ? geoFeatures : geoFeatures.filter((feature) => feature.properties.correct === (filter === "good"));
+
+  const geoJsonWithGoedFout = {
+    ...data,
+    features: geoFeaturesWithGoodFaultFilter
+  };
+
+  const blob = new Blob([JSON.stringify(geoJsonWithGoedFout)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
   const downloadLink = document.createElement('a');
@@ -185,18 +219,24 @@ document.querySelectorAll("input[type=radio]").forEach((radio) => {
 
       renderItemsList(filtered);
       map.setFilter("markers", null);
+
+      setSearchParams({ key: "filter", value: "all" });
     }
     if (value === "good") {
       const filtered = filterGeojson(f => [...readFromLocalStorage("good")].includes(f.properties.id));
 
       renderItemsList(filtered);
       map.setFilter("markers", ["in", "id", ...filtered.map(f => f.properties.id)]);
+
+      setSearchParams({ key: "filter", value: "good" });
     }
     if (value === "fault") {
       const filtered = filterGeojson(f => [...readFromLocalStorage("fault")].includes(f.properties.id));
 
       renderItemsList(filtered);
       map.setFilter("markers", ["in", "id", ...filtered.map(f => f.properties.id)]);
+
+      setSearchParams({ key: "filter", value: "fault" });
     }
   });
 
@@ -219,6 +259,10 @@ const renderItemsList = (filtered) => {
         <h4>${feature.properties.postalCode ? feature.properties.postalCode : ""} ${feature.properties.community ? feature.properties.community : ""}</h4>
         ${feature.properties.intersection ? "<h4><span id='intersection'>⏧&nbsp;</span>" + feature.properties.intersection + "</h4>" : ""}
         ${feature.properties.metaData.peliasUrl ? "<a href='https://pelias.github.io/compare/#" + feature.properties.metaData.peliasUrl.match(/\/v1.*/) + "' target='_blank'>Pelias</a>" : ""}
+        <div class="remark">
+          <label>Opmerking:</label>
+          <input type="text" id="remarkInput" data-featureid=${feature.properties.id}>
+        </div>
       </div>
       <div id="goodOrFault">
         <button id="good">✅</button>
@@ -270,11 +314,45 @@ const renderItemsList = (filtered) => {
       writeToLocalStorage(feature.properties.id, "fault")
     });
 
+
+    featureDiv?.querySelector("#remarkInput")?.addEventListener("click", openModal);
+
     items?.appendChild(featureDiv);
   };
 }
 
+// MODAL code
+
+// Get the modal
+let modal = document.getElementById("myModal");
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+// Open the modal
+function openModal(e) {
+  e.stopPropagation();
+  document.getElementById("modalOpenFeatureId").value = e.target.dataset.featureid;
+  modal && (modal.style.display = "block");
+}
+// Close the modal
+document.getElementById("modalClose").onclick = function () {
+  modal && (modal.style.display = "none");
+}
+// Close the modal if you click outside of it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal && (modal.style.display = "none");
+  }
+}
+// Set value from modal to the input
+document.getElementById("modalSaveBtn").onclick =
+  function setValue() {
+    document.querySelector(`[data-featureid="${document.getElementById("modalOpenFeatureId").value}"]`).value = document.getElementById("modalInput").value;
+    modal && (modal.style.display = "none");
+  }
+
 const init = () => {
+  setSearchParams({ key: "filter", value: "all" });
+
   const filtered = filterGeojson(_ => true);
   renderItemsList(filtered);
 };

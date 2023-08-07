@@ -6,6 +6,16 @@
     <title>GEOCODER -- Check points</title>
   </head>
   <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <div id="modalContent">
+        <span id="modalClose">&times;</span>
+        <p>Opmerking:</p>
+        <textarea id="modalInput"></textarea>
+        <input type="hidden" id="modalOpenFeatureId" />
+        <button id="modalSaveBtn">Bewaar</button>
+      </div>
+    </div>
     <div id="app">
       <div id="sidebar"></div>
       <div id="map"></div>
