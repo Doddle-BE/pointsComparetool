@@ -156,7 +156,8 @@ saveFileButton.addEventListener("click", () => {
     if (foundItem) {
       feature.properties = {
         ...feature.properties,
-        correct: foundItem.value === "good"
+        correct: foundItem.value === "good",
+        remark: document?.querySelector(`[data-featureid="${feature?.properties?.id}"]`)?.value
       }
     }
     return feature;
